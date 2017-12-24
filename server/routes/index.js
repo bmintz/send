@@ -47,12 +47,8 @@ module.exports = function(app) {
       helmet.contentSecurityPolicy({
         directives: {
           defaultSrc: ["'self'"],
-          connectSrc: [
-            "'self'",
-            'https://sentry.prod.mozaws.net',
-            'https://www.google-analytics.com'
-          ],
-          imgSrc: ["'self'", 'https://www.google-analytics.com'],
+          connectSrc: ["'self'"],
+          imgSrc: ["'self'"],
           scriptSrc: ["'self'"],
           styleSrc: [
             "'self'",
