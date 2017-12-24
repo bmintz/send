@@ -2,7 +2,6 @@
 import FileSender from './fileSender';
 import FileReceiver from './fileReceiver';
 import { copyToClipboard, delay, fadeOut, percent } from './utils';
-import * as metrics from './metrics';
 
 function saveFile(file) {
   const dataView = new DataView(file.plaintext);
@@ -101,19 +100,10 @@ export default function(state, emitter) {
     await FileSender.changeLimit(file.id, file.ownerToken, value);
     file.dlimit = value;
     state.storage.writeFiles();
-    metrics.changedDownloadLimit(file);
   });
 
-  emitter.on('delete', async ({ file, location }) => {
+  emitter.on('delete', async ({ file }) => {
     try {
-      metrics.deletedUpload({
-        size: file.size,
-        time: file.time,
-        speed: file.speed,
-        type: file.type,
-        ttl: file.expiresAt - Date.now(),
-        location
-      });
       state.storage.remove(file.id);
       await FileSender.delete(file.id, file.ownerToken);
     } catch (e) {
@@ -137,11 +127,9 @@ export default function(state, emitter) {
     await delay(200);
     try {
       const start = Date.now();
-      metrics.startedUpload({ size, type });
       const info = await sender.upload();
       const time = Date.now() - start;
       const speed = size / (time / 1000);
-      metrics.completedUpload({ size, time, speed, type });
       document.getElementById('cancel-upload').hidden = 'hidden';
       await delay(1000);
       await fadeOut('upload-progress');
@@ -164,11 +152,9 @@ export default function(state, emitter) {
       state.transfer = null;
       if (err.message === '0') {
         //cancelled. do nothing
-        metrics.cancelledUpload({ size, type });
         return render();
       }
       state.raven.captureException(err);
-      metrics.stoppedUpload({ size, type, err });
       emitter.emit('pushState', '/error');
     }
   });
@@ -176,7 +162,6 @@ export default function(state, emitter) {
   emitter.on('password', async ({ password, file }) => {
     try {
       await FileSender.setPassword(password, file);
-      metrics.addedPassword({ size: file.size });
       file.password = password;
       state.storage.writeFiles();
     } catch (e) {
@@ -209,19 +194,13 @@ export default function(state, emitter) {
     state.transfer.on('progress', render);
     state.transfer.on('decrypting', render);
     const links = openLinksInNewTab();
-    const size = file.size;
     try {
-      const start = Date.now();
-      metrics.startedDownload({ size: file.size, ttl: file.ttl });
       const f = await state.transfer.download(file.nonce);
-      const time = Date.now() - start;
-      const speed = size / (time / 1000);
       await delay(1000);
       await fadeOut('download-progress');
       saveFile(f);
       state.storage.totalDownloads += 1;
       state.transfer = null;
-      metrics.completedDownload({ size, time, speed });
       emitter.emit('pushState', '/completed');
     } catch (err) {
       console.error(err);
@@ -229,7 +208,6 @@ export default function(state, emitter) {
       const location = err.message === 'notfound' ? '/404' : '/error';
       if (location === '/error') {
         state.raven.captureException(err);
-        metrics.stoppedDownload({ size, err });
       }
       emitter.emit('pushState', location);
     } finally {
@@ -238,9 +216,8 @@ export default function(state, emitter) {
     }
   });
 
-  emitter.on('copy', ({ url, location }) => {
+  emitter.on('copy', ({ url }) => {
     copyToClipboard(url);
-    metrics.copiedLink({ location });
   });
 
   setInterval(() => {

@@ -6,7 +6,6 @@ import dragManager from './dragManager';
 import { canHasSend } from './utils';
 import assets from '../common/assets';
 import storage from './storage';
-import metrics from './metrics';
 import experiments from './experiments';
 import Raven from 'raven-js';
 
@@ -43,7 +42,6 @@ app.use((state, emitter) => {
   });
 });
 
-app.use(metrics);
 app.use(fileManager);
 app.use(dragManager);
 app.use(experiments);
