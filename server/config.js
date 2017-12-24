@@ -15,20 +15,15 @@ const conf = convict({
     env: 'REDIS_HOST'
   },
   listen_address: {
-  format: 'ipaddress',
-  default: '0.0.0.0',
-  env: 'IP_ADDRESS'
+    format: 'ipaddress',
+    default: '0.0.0.0',
+    env: 'IP_ADDRESS'
   },
   listen_port: {
     format: 'port',
     default: 1443,
     arg: 'port',
     env: 'PORT'
-  },
-  analytics_id: {
-    format: String,
-    default: '',
-    env: 'GOOGLE_ANALYTICS_ID'
   },
   sentry_id: {
     format: String,
