@@ -3,14 +3,12 @@ const html = require('choo/html');
 const download = require('./download');
 const header = require('../templates/header');
 const footer = require('../templates/footer');
-const fxPromo = require('../templates/fxPromo');
 
 const app = choo();
 
 function body(template) {
   return function(state, emit) {
     const b = html`<body>
-      ${state.promo ? fxPromo(state, emit) : ''}
       ${header(state)}
       <div class="all">
         <noscript>

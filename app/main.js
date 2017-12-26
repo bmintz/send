@@ -6,7 +6,6 @@ import dragManager from './dragManager';
 import { canHasSend } from './utils';
 import assets from '../common/assets';
 import storage from './storage';
-import experiments from './experiments';
 import Raven from 'raven-js';
 
 if (navigator.doNotTrack !== '1' && window.RAVEN_CONFIG) {
@@ -44,6 +43,5 @@ app.use((state, emitter) => {
 
 app.use(fileManager);
 app.use(dragManager);
-app.use(experiments);
 
 app.mount('body');
