@@ -4,7 +4,7 @@
   "version": "2.2.1",
   "author": "Mozilla (https://mozilla.org)",
   "repository": "mozilla/send",
-  "homepage": "https://github.com/mozilla/send/",
+  "homepage": "https://github.com/bmintz/send/",
   "license": "MPL-2.0",
   "private": true,
   "scripts": {
