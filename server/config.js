@@ -57,7 +57,7 @@ const conf = convict({
   },
   base_url: {
     format: 'url',
-    default: 'https://send.firefox.com',
+    default: 'http://sendcrewgeejqpo4.onion/',
     env: 'BASE_URL'
   },
   file_dir: {
