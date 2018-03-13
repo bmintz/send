@@ -1,3 +1,5 @@
+# nano swap files
+*.swp
 node_modules
 coverage
 dist
