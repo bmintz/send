@@ -30,7 +30,7 @@ module.exports = function(state, body = '') {
 
     <title>${state.title}</title>
 
-    <link rel="stylesheet" type="text/css" href="${assets.get('main.css')}" />
+    <link rel="stylesheet" type="text/css" href="${assets.get('style.css')}" />
 
     <!-- generic favicons -->
     <link rel="icon" href="${assets.get('favicon-32.png')}" sizes="32x32">
@@ -60,7 +60,7 @@ module.exports = function(state, body = '') {
       'favicon-144.png'
     )}">
 
-    <!— Windows 8.1 + IE11 and above —>
+    <!-- Windows 8.1 + IE11 and above -->
     <meta name="msapplication-config" content="/browserconfig.xml"/>
 
 
@@ -69,6 +69,7 @@ module.exports = function(state, body = '') {
     <script defer src="${assets.get('runtime.js')}"></script>
     <script defer src="${assets.get('vendor.js')}"></script>
     <script defer src="${locales.get(state.locale)}"></script>
+    <script defer src="${assets.get('cryptofill.js')}"></script>
     <script defer src="${assets.get('app.js')}"></script>
   </head>
   ${body}

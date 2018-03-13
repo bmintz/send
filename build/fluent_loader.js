@@ -1,4 +1,7 @@
-const { MessageContext } = require('fluent');
+// TODO: when node supports 'for await' we can remove babel-polyfill
+// and use 'fluent' instead of 'fluent/compat' (also below near line 42)
+require('babel-polyfill');
+const { MessageContext } = require('fluent/compat');
 const fs = require('fs');
 
 function toJSON(map) {
@@ -36,22 +39,25 @@ module.exports = function(source) {
   return `
 module.exports = \`
 if (typeof window === 'undefined') {
-  var fluent = require('fluent');
+  require('babel-polyfill');
+  var fluent = require('fluent/compat');
 }
-var ctx = new fluent.MessageContext('${locale}', {useIsolating: false});
-ctx._messages = new Map(${toJSON(merged)});
-function translate(id, data) {
-  var msg = ctx.getMessage(id);
-  if (typeof(msg) !== 'string' && !msg.val && msg.attrs) {
-    msg = msg.attrs.title || msg.attrs.alt
+(function () {
+  var ctx = new fluent.MessageContext('${locale}', {useIsolating: false});
+  ctx._messages = new Map(${toJSON(merged)});
+  function translate(id, data) {
+    var msg = ctx.getMessage(id);
+    if (typeof(msg) !== 'string' && !msg.val && msg.attrs) {
+      msg = msg.attrs.title || msg.attrs.alt
+    }
+    return ctx.format(msg, data);
   }
-  return ctx.format(msg, data);
-}
-if (typeof window === 'undefined') {
-  module.exports = translate;
-}
-else {
-  window.translate = translate;
-}
+  if (typeof window === 'undefined') {
+    module.exports = translate;
+  }
+  else {
+    window.translate = translate;
+  }
+})();
 \``;
 };

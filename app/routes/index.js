@@ -1,28 +1,35 @@
 const choo = require('choo');
 const html = require('choo/html');
+const nanotiming = require('nanotiming');
 const download = require('./download');
 const header = require('../templates/header');
 const footer = require('../templates/footer');
 
+nanotiming.disabled = true;
 const app = choo();
 
 function body(template) {
   return function(state, emit) {
     const b = html`<body>
       ${header(state)}
-      <div class="all">
+      <main class="main">
         <noscript>
-          <h2>${state.title} requires JavaScript</h2>
-          <p><a href="https://github.com/mozilla/send/blob/master/docs/faq.md#why-does-firefox-send-require-javascript">Why does ${
-            state.title
-          } require JavaScript?</a></p>
-          <p>Please enable JavaScript and try again.</p>
+          <div class="noscript">
+            <h2>${state.translate('javascriptRequired')}</h2>
+            <p>
+              <a class="link" href="https://github.com/mozilla/send/blob/master/docs/faq.md#why-does-firefox-send-require-javascript">
+              ${state.translate('whyJavascript')}
+              </a>
+            </p>
+            <p>${state.translate('enableJavascript')}</p>
+          </div>
         </noscript>
         ${template(state, emit)}
-      </div>
+      </main>
       ${footer(state)}
     </body>`;
     if (state.layout) {
+      // server side only
       return state.layout(state, b);
     }
     return b;
@@ -30,14 +37,14 @@ function body(template) {
 }
 
 app.route('/', body(require('./home')));
-app.route('/share/:id', body(require('../templates/share')));
+app.route('/share/:id', body(require('../pages/share')));
 app.route('/download/:id', body(download));
 app.route('/download/:id/:key', body(download));
-app.route('/completed', body(require('../templates/completed')));
-app.route('/unsupported/:reason', body(require('../templates/unsupported')));
-app.route('/legal', body(require('../templates/legal')));
-app.route('/error', body(require('../templates/error')));
-app.route('/blank', body(require('../templates/blank')));
-app.route('*', body(require('../templates/notFound')));
+app.route('/completed', body(require('../pages/completed')));
+app.route('/unsupported/:reason', body(require('../pages/unsupported')));
+app.route('/legal', body(require('../pages/legal')));
+app.route('/error', body(require('../pages/error')));
+app.route('/blank', body(require('../pages/blank')));
+app.route('*', body(require('../pages/notFound')));
 
 module.exports = app;

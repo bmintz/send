@@ -1,55 +1,12 @@
-/* global EXPIRE_SECONDS */
 import FileSender from './fileSender';
 import FileReceiver from './fileReceiver';
-import { copyToClipboard, delay, fadeOut, percent } from './utils';
-
-function saveFile(file) {
-  const dataView = new DataView(file.plaintext);
-  const blob = new Blob([dataView], { type: file.type });
-  const downloadUrl = URL.createObjectURL(blob);
-
-  if (window.navigator.msSaveBlob) {
-    return window.navigator.msSaveBlob(blob, file.name);
-  }
-  const a = document.createElement('a');
-  a.href = downloadUrl;
-  a.download = file.name;
-  document.body.appendChild(a);
-  a.click();
-  URL.revokeObjectURL(downloadUrl);
-}
-
-function openLinksInNewTab(links, should = true) {
-  links = links || Array.from(document.querySelectorAll('a:not([target])'));
-  if (should) {
-    links.forEach(l => {
-      l.setAttribute('target', '_blank');
-      l.setAttribute('rel', 'noopener noreferrer');
-    });
-  } else {
-    links.forEach(l => {
-      l.removeAttribute('target');
-      l.removeAttribute('rel');
-    });
-  }
-  return links;
-}
-
-function exists(id) {
-  return new Promise((resolve, reject) => {
-    const xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = () => {
-      if (xhr.readyState === XMLHttpRequest.HEADERS_RECEIVED) {
-        resolve(xhr.status === 200);
-      }
-    };
-    xhr.onerror = () => resolve(false);
-    xhr.ontimeout = () => resolve(false);
-    xhr.open('get', '/api/exists/' + id);
-    xhr.timeout = 2000;
-    xhr.send();
-  });
-}
+import {
+  copyToClipboard,
+  delay,
+  fadeOut,
+  openLinksInNewTab,
+  percent
+} from './utils';
 
 export default function(state, emitter) {
   let lastRender = 0;
@@ -60,12 +17,16 @@ export default function(state, emitter) {
   }
 
   async function checkFiles() {
-    const files = state.storage.files;
+    const files = state.storage.files.slice();
     let rerender = false;
     for (const file of files) {
-      const ok = await exists(file.id);
-      if (!ok) {
+      const oldLimit = file.dlimit;
+      const oldTotal = file.dtotal;
+      await file.updateDownloadCount();
+      if (file.dtotal === file.dlimit) {
         state.storage.remove(file.id);
+        rerender = true;
+      } else if (oldLimit !== file.dlimit || oldTotal !== file.dtotal) {
         rerender = true;
       }
     }
@@ -97,19 +58,17 @@ export default function(state, emitter) {
   });
 
   emitter.on('changeLimit', async ({ file, value }) => {
-    await FileSender.changeLimit(file.id, file.ownerToken, value);
-    file.dlimit = value;
-    state.storage.writeFiles();
+    await file.changeLimit(value);
+    state.storage.writeFile(file);
   });
 
   emitter.on('delete', async ({ file }) => {
     try {
       state.storage.remove(file.id);
-      await FileSender.delete(file.id, file.ownerToken);
+      await file.del();
     } catch (e) {
       state.raven.captureException(e);
     }
-    state.fileInfo = null;
   });
 
   emitter.on('cancel', () => {
@@ -117,72 +76,72 @@ export default function(state, emitter) {
   });
 
   emitter.on('upload', async ({ file, type }) => {
-    const size = file.size;
     const sender = new FileSender(file);
     sender.on('progress', updateProgress);
     sender.on('encrypting', render);
     state.transfer = sender;
+    state.uploading = true;
     render();
+
     const links = openLinksInNewTab();
     await delay(200);
     try {
-      const start = Date.now();
-      const info = await sender.upload();
-      const time = Date.now() - start;
-      const speed = size / (time / 1000);
-      document.getElementById('cancel-upload').hidden = 'hidden';
-      await delay(1000);
-      await fadeOut('upload-progress');
-      info.name = file.name;
-      info.size = size;
-      info.type = type;
-      info.time = time;
-      info.speed = speed;
-      info.createdAt = Date.now();
-      info.url = `${info.url}#${info.secretKey}`;
-      info.expiresAt = Date.now() + EXPIRE_SECONDS * 1000;
-      state.fileInfo = info;
-      state.storage.addFile(state.fileInfo);
-      openLinksInNewTab(links, false);
-      state.transfer = null;
+      const ownedFile = await sender.upload();
+      ownedFile.type = type;
       state.storage.totalUploads += 1;
-      emitter.emit('pushState', `/share/${info.id}`);
+
+      state.storage.addFile(ownedFile);
+      const cancelBtn = document.getElementById('cancel-upload');
+      if (cancelBtn) {
+        cancelBtn.hidden = 'hidden';
+      }
+      await delay(1000);
+      await fadeOut('.page');
+      emitter.emit('pushState', `/share/${ownedFile.id}`);
     } catch (err) {
-      console.error(err);
-      state.transfer = null;
       if (err.message === '0') {
         //cancelled. do nothing
-        return render();
+        render();
+      } else {
+        // eslint-disable-next-line no-console
+        console.error(err);
+        state.raven.captureException(err);
+        emitter.emit('pushState', '/error');
       }
-      state.raven.captureException(err);
-      emitter.emit('pushState', '/error');
+    } finally {
+      openLinksInNewTab(links, false);
+      state.uploading = false;
+      state.transfer = null;
     }
   });
 
   emitter.on('password', async ({ password, file }) => {
     try {
-      await FileSender.setPassword(password, file);
-      file.password = password;
-      state.storage.writeFiles();
-    } catch (e) {
-      console.error(e);
+      state.settingPassword = true;
+      render();
+      await file.setPassword(password);
+      state.storage.writeFile(file);
+      await delay(1000);
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.error(err);
+      state.passwordSetError = err;
+    } finally {
+      state.settingPassword = false;
     }
     render();
   });
 
-  emitter.on('preview', async () => {
+  emitter.on('getMetadata', async () => {
     const file = state.fileInfo;
-    const url = `/api/download/${file.id}`;
-    const receiver = new FileReceiver(url, file);
-    receiver.on('progress', updateProgress);
-    receiver.on('decrypting', render);
-    state.transfer = receiver;
+    const receiver = new FileReceiver(file);
     try {
-      await receiver.getMetadata(file.nonce);
+      await receiver.getMetadata();
+      state.transfer = receiver;
     } catch (e) {
       if (e.message === '401') {
         file.password = null;
-        if (!file.pwd) {
+        if (!file.requiresPassword) {
           return emitter.emit('pushState', '/404');
         }
       }
@@ -190,28 +149,36 @@ export default function(state, emitter) {
     render();
   });
 
+  // eslint-disable-next-line no-unused-vars
   emitter.on('download', async file => {
-    state.transfer.on('progress', render);
+    state.transfer.on('progress', updateProgress);
     state.transfer.on('decrypting', render);
     const links = openLinksInNewTab();
     try {
-      const f = await state.transfer.download(file.nonce);
+      const dl = state.transfer.download();
+      render();
+      await dl;
       await delay(1000);
-      await fadeOut('download-progress');
-      saveFile(f);
+      await fadeOut('.page');
       state.storage.totalDownloads += 1;
-      state.transfer = null;
+      state.transfer.reset();
       emitter.emit('pushState', '/completed');
     } catch (err) {
-      console.error(err);
-      // TODO cancelled download
-      const location = err.message === 'notfound' ? '/404' : '/error';
-      if (location === '/error') {
-        state.raven.captureException(err);
+      if (err.message === '0') {
+        // download cancelled
+        state.transfer.reset();
+        render();
+      } else {
+        // eslint-disable-next-line no-console
+        console.error(err);
+        state.transfer = null;
+        const location = err.message === '404' ? '/404' : '/error';
+        if (location === '/error') {
+          state.raven.captureException(err);
+        }
+        emitter.emit('pushState', location);
       }
-      emitter.emit('pushState', location);
     } finally {
-      state.transfer = null;
       openLinksInNewTab(links, false);
     }
   });
@@ -219,6 +186,14 @@ export default function(state, emitter) {
   emitter.on('copy', ({ url }) => {
     copyToClipboard(url);
   });
+
+  setInterval(() => {
+    // poll for updates of the download counts
+    // TODO something for the share page: || state.route === '/share/:id'
+    if (state.route === '/') {
+      checkFiles();
+    }
+  }, 2 * 60 * 1000);
 
   setInterval(() => {
     // poll for rerendering the file list countdown timers

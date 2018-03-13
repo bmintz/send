@@ -9,25 +9,7 @@ function arrayToB64(array) {
 }
 
 function b64ToArray(str) {
-  str = (str + '==='.slice((str.length + 3) % 4))
-    .replace(/-/g, '+')
-    .replace(/_/g, '/');
-  return b64.toByteArray(str);
-}
-
-function notify(str) {
-  return str;
-  /* TODO: enable once we have an opt-in ui element
-  if (!('Notification' in window)) {
-    return;
-  } else if (Notification.permission === 'granted') {
-    new Notification(str);
-  } else if (Notification.permission !== 'denied') {
-    Notification.requestPermission(function(permission) {
-      if (permission === 'granted') new Notification(str);
-    });
-  }
-  */
+  return b64.toByteArray(str + '==='.slice((str.length + 3) % 4));
 }
 
 function loadShim(polyfill) {
@@ -40,7 +22,7 @@ function loadShim(polyfill) {
   });
 }
 
-async function canHasSend(polyfill) {
+async function canHasSend() {
   try {
     const key = await window.crypto.subtle.generateKey(
       {
@@ -50,7 +32,6 @@ async function canHasSend(polyfill) {
       true,
       ['encrypt', 'decrypt']
     );
-
     await window.crypto.subtle.encrypt(
       {
         name: 'AES-GCM',
@@ -60,9 +41,23 @@ async function canHasSend(polyfill) {
       key,
       new ArrayBuffer(8)
     );
+    await window.crypto.subtle.importKey(
+      'raw',
+      window.crypto.getRandomValues(new Uint8Array(16)),
+      'PBKDF2',
+      false,
+      ['deriveKey']
+    );
+    await window.crypto.subtle.importKey(
+      'raw',
+      window.crypto.getRandomValues(new Uint8Array(16)),
+      'HKDF',
+      false,
+      ['deriveKey']
+    );
     return true;
   } catch (err) {
-    return loadShim(polyfill);
+    return false;
   }
 }
 
@@ -132,6 +127,14 @@ function percent(ratio) {
   return `${Math.floor(ratio * 100)}%`;
 }
 
+function number(n) {
+  if (LOCALIZE_NUMBERS) {
+    const locale = document.querySelector('html').lang;
+    return n.toLocaleString(locale);
+  }
+  return n.toString();
+}
+
 function allowedCopy() {
   const support = !!document.queryCommandSupported;
   return support ? document.queryCommandSupported('copy') : false;
@@ -141,14 +144,28 @@ function delay(delay = 100) {
   return new Promise(resolve => setTimeout(resolve, delay));
 }
 
-function fadeOut(id) {
-  const classes = document.getElementById(id).classList;
-  classes.remove('fadeIn');
-  classes.add('fadeOut');
+function fadeOut(selector) {
+  const classes = document.querySelector(selector).classList;
+  classes.remove('effect--fadeIn');
+  classes.add('effect--fadeOut');
   return delay(300);
 }
 
-const ONE_DAY_IN_MS = 86400000;
+function openLinksInNewTab(links, should = true) {
+  links = links || Array.from(document.querySelectorAll('a:not([target])'));
+  if (should) {
+    links.forEach(l => {
+      l.setAttribute('target', '_blank');
+      l.setAttribute('rel', 'noopener noreferrer');
+    });
+  } else {
+    links.forEach(l => {
+      l.removeAttribute('target');
+      l.removeAttribute('rel');
+    });
+  }
+  return links;
+}
 
 module.exports = {
   fadeOut,
@@ -156,11 +173,12 @@ module.exports = {
   allowedCopy,
   bytes,
   percent,
+  number,
   copyToClipboard,
   arrayToB64,
   b64ToArray,
-  notify,
+  loadShim,
   canHasSend,
   isFile,
-  ONE_DAY_IN_MS
+  openLinksInNewTab
 };

@@ -1,40 +1,22 @@
+const express = require('express');
 const busboy = require('connect-busboy');
 const helmet = require('helmet');
-const bodyParser = require('body-parser');
-const languages = require('../languages');
 const storage = require('../storage');
 const config = require('../config');
+const auth = require('../middleware/auth');
+const owner = require('../middleware/owner');
+const language = require('../middleware/language');
 const pages = require('./pages');
-const { negotiateLanguages } = require('fluent-langneg');
+
 const IS_DEV = config.env === 'development';
-const acceptLanguages = /(([a-zA-Z]+(-[a-zA-Z0-9]+){0,2})|\*)(;q=[0-1](\.[0-9]+)?)?/g;
-const langData = require('cldr-core/supplemental/likelySubtags.json');
+const ID_REGEX = '([0-9a-fA-F]{10})';
+const uploader = busboy({
+  limits: {
+    fileSize: config.max_file_size
+  }
+});
 
 module.exports = function(app) {
-  app.use(function(req, res, next) {
-    const header = req.headers['accept-language'] || 'en-US';
-    if (header.length > 255) {
-      req.language = 'en-US';
-      return next();
-    }
-    const langs = header.replace(/\s/g, '').match(acceptLanguages);
-    const preferred = langs
-      .map(l => {
-        const parts = l.split(';');
-        return {
-          locale: parts[0],
-          q: parts[1] ? parseFloat(parts[1].split('=')[1]) : 1
-        };
-      })
-      .sort((a, b) => b.q - a.q)
-      .map(x => x.locale);
-    req.language = negotiateLanguages(preferred, languages, {
-      strategy: 'lookup',
-      likelySubtags: langData.supplemental.likelySubtags,
-      defaultLocale: 'en-US'
-    })[0];
-    next();
-  });
   app.use(helmet());
   app.use(
     helmet.hsts({
@@ -50,11 +32,7 @@ module.exports = function(app) {
           connectSrc: ["'self'"],
           imgSrc: ["'self'"],
           scriptSrc: ["'self'"],
-          styleSrc: [
-            "'self'",
-            "'unsafe-inline'",
-            'https://code.cdn.mozilla.net'
-          ],
+          styleSrc: ["'self'", 'https://code.cdn.mozilla.net'],
           fontSrc: ["'self'", 'https://code.cdn.mozilla.net'],
           formAction: ["'none'"],
           frameAncestors: ["'none'"],
@@ -64,33 +42,27 @@ module.exports = function(app) {
       })
     );
   }
-  app.use(
-    busboy({
-      limits: {
-        fileSize: config.max_file_size
-      }
-    })
-  );
   app.use(function(req, res, next) {
     res.set('Pragma', 'no-cache');
     res.set('Cache-Control', 'no-cache');
     next();
   });
-  app.use(bodyParser.json());
-  app.get('/', pages.index);
-  app.get('/legal', pages.legal);
+  app.use(express.json());
+  app.get('/', language, pages.index);
+  app.get('/legal', language, pages.legal);
   app.get('/jsconfig.js', require('./jsconfig'));
-  app.get('/share/:id', pages.blank);
-  app.get('/download/:id', pages.download);
-  app.get('/completed', pages.blank);
-  app.get('/unsupported/:reason', pages.unsupported);
-  app.get('/api/download/:id', require('./download'));
-  app.get('/api/exists/:id', require('./exists'));
-  app.get('/api/metadata/:id', require('./metadata'));
-  app.post('/api/upload', require('./upload'));
-  app.post('/api/delete/:id', require('./delete'));
-  app.post('/api/password/:id', require('./password'));
-  app.post('/api/params/:id', require('./params'));
+  app.get(`/share/:id${ID_REGEX}`, language, pages.blank);
+  app.get(`/download/:id${ID_REGEX}`, language, pages.download);
+  app.get('/completed', language, pages.blank);
+  app.get('/unsupported/:reason', language, pages.unsupported);
+  app.get(`/api/download/:id${ID_REGEX}`, auth, require('./download'));
+  app.get(`/api/exists/:id${ID_REGEX}`, require('./exists'));
+  app.get(`/api/metadata/:id${ID_REGEX}`, auth, require('./metadata'));
+  app.post('/api/upload', uploader, require('./upload'));
+  app.post(`/api/delete/:id${ID_REGEX}`, owner, require('./delete'));
+  app.post(`/api/password/:id${ID_REGEX}`, owner, require('./password'));
+  app.post(`/api/params/:id${ID_REGEX}`, owner, require('./params'));
+  app.post(`/api/info/:id${ID_REGEX}`, owner, require('./info'));
 
   app.get('/__version__', function(req, res) {
     res.sendFile(require.resolve('../../dist/version.json'));
