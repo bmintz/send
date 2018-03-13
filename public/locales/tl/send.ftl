@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# SendCrew is a brand name and should not be localized.
 title = Firefox Ipadala
 siteSubtitle = eksperimento sa web
 siteFeedback = Feedback
@@ -52,15 +52,15 @@ unlockInputLabel = Ilagay ang Password
 unlockInputPlaceholder = Password
 unlockButtonLabel = I-unlock
 downloadFileTitle = I-download ang Na-encrypt na File
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Ang iyong kaibigan ay nagpapadala sa iyo ng isang file na may Firefox Send, isang serbisyo na nagbibigay-daan sa iyo upang magbahagi ng mga file sa isang ligtas, pribado, at naka-encrypt na link na awtomatikong mawawalan ng bisa upang matiyak na ang iyong mga bagay-bagay ay hindi mananatiling online magpakailanman.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Ang iyong kaibigan ay nagpapadala sa iyo ng isang file na may SendCrew, isang serbisyo na nagbibigay-daan sa iyo upang magbahagi ng mga file sa isang ligtas, pribado, at naka-encrypt na link na awtomatikong mawawalan ng bisa upang matiyak na ang iyong mga bagay-bagay ay hindi mananatiling online magpakailanman.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = I-download
 downloadNotification = Nakumpleto na ang iyong pag-download.
 downloadFinish = Kumpleto ang Download
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } ng { $totalSize })
-# Firefox Send is a brand name and should not be localized.
+# SendCrew is a brand name and should not be localized.
 sendYourFilesLink = Subukan ang Firefox Ipadala
 downloadingPageProgress = Downloading { $filename } ({ $size })
 downloadingPageMessage = Paki-iwan ang tab na ito habang binuksan namin ang iyong file at i-decrypt ito.
@@ -72,10 +72,10 @@ fileTooBig = Ang file na iyon ay masyadong malaki upang mag-upload. Dapat itong 
 linkExpiredAlt = Nag-expire na ang link
 expiredPageHeader = Nag-expire na ang link na ito o hindi kailanman umiiral sa unang lugar!
 notSupportedHeader = Ang iyong browser ay hindi suportado.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Sa kasamaang palad hindi sinusuportahan ng browser na ito ang teknolohiya sa web na nagpapagana ng Firefox Send. Kailangan mong subukan ang ibang browser. Inirerekomenda namin ang Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Sa kasamaang palad hindi sinusuportahan ng browser na ito ang teknolohiya sa web na nagpapagana ng SendCrew. Kailangan mong subukan ang ibang browser. Inirerekomenda namin ang Firefox!
 notSupportedLink = Bakit hindi suportado ang aking browser?
-notSupportedOutdatedDetail = Sa kasamaang palad ang bersyon na ito ng Firefox ay hindi sumusuporta sa teknolohiya ng web na nagpapagana ng Firefox Send. Kailangan mong i-update ang iyong browser.
+notSupportedOutdatedDetail = Sa kasamaang palad ang bersyon na ito ng Firefox ay hindi sumusuporta sa teknolohiya ng web na nagpapagana ng SendCrew. Kailangan mong i-update ang iyong browser.
 updateFirefox = I-update ang Firefox
 downloadFirefoxButtonSub = Libreng Download
 uploadedFile = File

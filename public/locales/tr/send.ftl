@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = web deneyi
 siteFeedback = Görüş bildir
 uploadPageHeader = Kişiye özel, şifrelenmiş dosya paylaşımı
@@ -49,16 +49,16 @@ unlockInputLabel = Parolayı yazın
 unlockInputPlaceholder = Parola
 unlockButtonLabel = Kilidi aç
 downloadFileTitle = Şifrelenmiş dosyayı indir
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Arkadaşınız size Firefox Send ile bir dosya gönderdi. Firefox Send; dosyalarınızı güvenli, size özel, şifrelenmiş ve otomatik olarak silinen bir bağlantıyla paylaşmayı sağlar. Böylece özel dosyalarınız sonsuza dek internette kalmaz.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Arkadaşınız size SendCrew ile bir dosya gönderdi. SendCrew; dosyalarınızı güvenli, size özel, şifrelenmiş ve otomatik olarak silinen bir bağlantıyla paylaşmayı sağlar. Böylece özel dosyalarınız sonsuza dek internette kalmaz.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = İndir
 downloadNotification = İndirme tamamlandı.
 downloadFinish = İndirme tamamlandı
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Firefox Send’i deneyin
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = SendCrew’i deneyin
 downloadingPageProgress = { $filename } indiriliyor ({ $size })
 downloadingPageMessage = Dosyanız indirilip şifresi çözülürken lütfen bu sekmeyi açık bırakın.
 errorAltText = Yükleme hatası
@@ -69,10 +69,10 @@ fileTooBig = Dosyanız çok büyük. En fazla { $size } boyutunda olmalı.
 linkExpiredAlt = Bağlantı zaman aşımına uğramış
 expiredPageHeader = Bu bağlantı zaman aşımına uğramış veya böyle bir bağlantı hiç yoktu.
 notSupportedHeader = Tarayıcınız desteklenmiyor.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Ne yazık ki tarayıcınız Firefox Send için gereken web teknolojilerini desteklemiyor. Başka bir tarayıcıyla deneyebilirsiniz. Önerimiz tabii ki Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Ne yazık ki tarayıcınız SendCrew için gereken web teknolojilerini desteklemiyor. Başka bir tarayıcıyla deneyebilirsiniz. Önerimiz tabii ki Firefox!
 notSupportedLink = Tarayıcım neden desteklenmiyor?
-notSupportedOutdatedDetail = Kullandığınız Firefox sürümü Firefox Send için gereken web teknolojilerini desteklemiyor. Tarayıcınızı güncellemeniz gerekiyor.
+notSupportedOutdatedDetail = Kullandığınız Firefox sürümü SendCrew için gereken web teknolojilerini desteklemiyor. Tarayıcınızı güncellemeniz gerekiyor.
 updateFirefox = Firefox’u güncelle
 downloadFirefoxButtonSub = Ücretsiz indirin
 uploadedFile = Dosya
@@ -82,8 +82,8 @@ expiryFileList = Bitiş süresi
 deleteFileList = Sil
 nevermindButton = Boş ver
 legalHeader = Şart ve Koşullar
-legalNoticeTestPilot = Firefox Send bir Test Pilotu deneyidir ve  Test Pilotu <a>Hizmet Koşulları</a> ile <a>Gizlilik Bildirimi</a>’ne tabidir. Bu deney ve topladığı veriler hakkında daha fazla bilgi almak isterseniz <a>buraya</a> bakabilirsiniz.
-legalNoticeMozilla = Firefox Send’i kullanmak Mozilla’nın <a>Web Siteleri Gizlilik Bildirimi</a> ve <a>Web Siteleri Kullanım Koşulları</a>’na da tabidir.
+legalNoticeTestPilot = SendCrew bir Test Pilotu deneyidir ve  Test Pilotu <a>Hizmet Koşulları</a> ile <a>Gizlilik Bildirimi</a>’ne tabidir. Bu deney ve topladığı veriler hakkında daha fazla bilgi almak isterseniz <a>buraya</a> bakabilirsiniz.
+legalNoticeMozilla = SendCrew’i kullanmak Mozilla’nın <a>Web Siteleri Gizlilik Bildirimi</a> ve <a>Web Siteleri Kullanım Koşulları</a>’na da tabidir.
 deletePopupText = Bu dosya silinsin mi?
 deletePopupYes = Evet
 deletePopupCancel = Vazgeç
@@ -100,8 +100,8 @@ addPasswordButton = Parola ekle
 changePasswordButton = Değiştir
 passwordTryAgain = Yanlış parola. Yeniden deneyin.
 reportIPInfringement = Telif hakkı ihlali bildir
-javascriptRequired = Firefox Send için JavaScript gerekir
-whyJavascript = Firefox Send neden JavaScript kullanıyor?
+javascriptRequired = SendCrew için JavaScript gerekir
+whyJavascript = SendCrew neden JavaScript kullanıyor?
 enableJavascript = Lütfen JavaScript'i etkinleştirip yeniden deneyin.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } sa { $minutes } dk

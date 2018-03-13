@@ -1,5 +1,5 @@
-// Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+// SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = జాల ప్రయోగం
 siteFeedback = అభిప్రాయం
 uploadPageLearnMore = ఇంకా తెలుసుకోండి
@@ -40,7 +40,7 @@ downloadNotification = మీ దిగుమతి పూర్తయ్యి�
 downloadFinish = దిగుమతి పూర్తయింది
 // This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = { $totalSize }) యొక్క ({ $partialSize }
-// Firefox Send is a brand name and should not be localized.
+// SendCrew is a brand name and should not be localized.
 sendYourFilesLink = Firefox sendను ప్రయత్నించండి
 downloadingPageProgress = దిగుమతిచేస్తున్నది { $filename } ({ $size })
 errorAltText = ఎగుమతిలో లోపం

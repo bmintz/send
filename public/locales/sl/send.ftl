@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = spletni poskus
 siteFeedback = Povratne informacije
 uploadPageHeader = Zasebno, šifrirano deljenje datotek
@@ -57,16 +57,16 @@ unlockInputLabel = Vnesite geslo
 unlockInputPlaceholder = Geslo
 unlockButtonLabel = Odkleni
 downloadFileTitle = Prenesi šifrirano datoteko
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Prijatelj vam pošilja datoteko preko storitve Firefox Send, ki vam omogoča deljenje datotek preko varne, zasebne in šifrirane povezave, ki samodejno poteče, kar vam zagotavlja, da vaše stvari ne ostanejo na spletu za vedno.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Prijatelj vam pošilja datoteko preko storitve SendCrew, ki vam omogoča deljenje datotek preko varne, zasebne in šifrirane povezave, ki samodejno poteče, kar vam zagotavlja, da vaše stvari ne ostanejo na spletu za vedno.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Prenesi
 downloadNotification = Vaš prenos je končan.
 downloadFinish = Prenos končan
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } od { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Preskusite Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Preskusite SendCrew
 downloadingPageProgress = Prenašanje { $filename } ({ $size })
 downloadingPageMessage = Medtem ko pridobivamo vašo datoteko in jo dešifriramo, pustite ta zavihek odprt.
 errorAltText = Napaka pri nalaganju
@@ -77,10 +77,10 @@ fileTooBig = Ta datoteka je prevelika za nalaganje. Največja možna velikost je
 linkExpiredAlt = Povezava je potekla
 expiredPageHeader = Ta povezava je potekla ali pa sploh ni obstajala!
 notSupportedHeader = Vaš brskalnik ni podprt.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Ta brskalnik na žalost ne podpira tehnologije, na kateri temelji Firefox Send. Uporabiti boste morali drug brskalnik. Priporočamo Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Ta brskalnik na žalost ne podpira tehnologije, na kateri temelji SendCrew. Uporabiti boste morali drug brskalnik. Priporočamo Firefox!
 notSupportedLink = Zakaj moj brskalnik ni podprt?
-notSupportedOutdatedDetail = Ta brskalnik žal ne podpira tehnologije, na kateri temelji Firefox Send. Svoj brskalnik boste morali posodobiti.
+notSupportedOutdatedDetail = Ta brskalnik žal ne podpira tehnologije, na kateri temelji SendCrew. Svoj brskalnik boste morali posodobiti.
 updateFirefox = Posodobi Firefox
 downloadFirefoxButtonSub = Brezplačen prenos
 uploadedFile = Datoteka
@@ -90,8 +90,8 @@ expiryFileList = Poteče
 deleteFileList = Izbriši
 nevermindButton = Pozabi
 legalHeader = Pogoji in zasebnost
-legalNoticeTestPilot = Firefox Send je trenutno poskus projekta Test Pilot ter zanj veljajo <a>pogoji uporabe</a> in <a>obvestilo o zasebnosti</a> Test Pilota. Več o tem poskusu in njegovem zbiranju podatkov lahko izveste <a>tukaj</a>.
-legalNoticeMozilla = Za uporabo spletne strani Firefox Send veljajo Mozillini <a>obvestilo o zasebnosti za spletne strani</a> in <a>pogoji uporabe spletnih strani</a>.
+legalNoticeTestPilot = SendCrew je trenutno poskus projekta Test Pilot ter zanj veljajo <a>pogoji uporabe</a> in <a>obvestilo o zasebnosti</a> Test Pilota. Več o tem poskusu in njegovem zbiranju podatkov lahko izveste <a>tukaj</a>.
+legalNoticeMozilla = Za uporabo spletne strani SendCrew veljajo Mozillini <a>obvestilo o zasebnosti za spletne strani</a> in <a>pogoji uporabe spletnih strani</a>.
 deletePopupText = Izbrišem to datoteko?
 deletePopupYes = Da
 deletePopupCancel = Prekliči
@@ -108,8 +108,8 @@ addPasswordButton = Dodaj geslo
 changePasswordButton = Spremeni
 passwordTryAgain = Napačno geslo. Poskusite znova.
 reportIPInfringement = Prijavite kršitev naslova IP
-javascriptRequired = Firefox Send zahteva JavaScript
-whyJavascript = Zakaj Firefox Send zahteva JavaScript?
+javascriptRequired = SendCrew zahteva JavaScript
+whyJavascript = Zakaj SendCrew zahteva JavaScript?
 enableJavascript = Omogočite JavaScript in poskusite znova.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m

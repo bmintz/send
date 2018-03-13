@@ -1,9 +1,9 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = veebieksperiment
 siteFeedback = Tagasiside
 uploadPageHeader = Privaatne ja krüpteeritud failiedastus
-uploadPageExplainer = Firefox Send võimaldab saata faile üle ohutu, privaatse ja krüpteeritud kanali. Failid kustutatakse automaatselt, et need ei jääks internetti igaveseks.
+uploadPageExplainer = SendCrew võimaldab saata faile üle ohutu, privaatse ja krüpteeritud kanali. Failid kustutatakse automaatselt, et need ei jääks internetti igaveseks.
 uploadPageLearnMore = Rohkem teavet
 uploadPageDropMessage = Faili üleslaadimiseks lohista see siia
 uploadPageSizeMessage = Parima kogemuse saamiseks tasub faili suurus hoida alla 1GB
@@ -53,16 +53,16 @@ unlockInputLabel = Sisesta parool
 unlockInputPlaceholder = Parool
 unlockButtonLabel = Ava
 downloadFileTitle = Krüptitud faili allalaadimine
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Sulle on saadetud fail Firefox Sendiga - teenusega, mis lubab faile ohutult, privaatselt ja krüpteeritult jagada. Failid kustutatakse automaatselt, et need ei jääks internetti igaveseks.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Sulle on saadetud fail SendCrewiga - teenusega, mis lubab faile ohutult, privaatselt ja krüpteeritult jagada. Failid kustutatakse automaatselt, et need ei jääks internetti igaveseks.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Laadi alla
 downloadNotification = Allalaadimine on lõpetatud.
 downloadFinish = Allalaadimine lõpetati
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize }/{ $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Proovi Firefox Sendi
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Proovi SendCrewi
 downloadingPageProgress = Faili { $filename } ({ $size }) allalaadimine
 downloadingPageMessage = Palun jäta see kaart lahti, kuni fail on alla laaditud ja dekrüptitud.
 errorAltText = Viga üleslaadimisel
@@ -73,10 +73,10 @@ fileTooBig = Fail on üleslaadimiseks liiga suur. See peaks olema väiksem kui {
 linkExpiredAlt = Link on aegunud
 expiredPageHeader = See link on aegunud või seda pole kunagi olnudki!
 notSupportedHeader = Sinu brauser pole toetatud.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Kahjuks ei toeta see brauser veebitehnoloogiaid, mis teevad Firefox Sendi toimimise võimalikuks. Sa pead proovima teise brauseriga. Me soovitame Firefoxi!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Kahjuks ei toeta see brauser veebitehnoloogiaid, mis teevad SendCrewi toimimise võimalikuks. Sa pead proovima teise brauseriga. Me soovitame Firefoxi!
 notSupportedLink = Miks mu brauser toetatud pole?
-notSupportedOutdatedDetail = Kahjuks ei toeta see Firefoxi versioon veebitehnoloogiaid, mis teevad Firefox Sendi toimimise võimalikuks. Sa pead oma brauserit uuendama.
+notSupportedOutdatedDetail = Kahjuks ei toeta see Firefoxi versioon veebitehnoloogiaid, mis teevad SendCrewi toimimise võimalikuks. Sa pead oma brauserit uuendama.
 updateFirefox = Uuenda Firefox
 downloadFirefoxButtonSub = Laadi alla tasuta
 uploadedFile = Fail
@@ -86,8 +86,8 @@ expiryFileList = Aegub
 deleteFileList = Kustuta
 nevermindButton = Ära pane tähele
 legalHeader = Tingimused ja privaatsusreeglid
-legalNoticeTestPilot = Firefox Send on praegu Test Piloti eksperiment ja sellele rakenduvad Test Piloti <a>teenusetingimused</a> ning <a>privaatsusreeglid</a>. Rohkem teavet selle eksperimendi ja kogutavate andmete kohta leiab <a>siit</a>.
-legalNoticeMozilla = Firefox Sendi veebilehe kasutamisele rakenduvad ka Mozilla <a>veebilehtede privaatsusreeglid</a> ja <a>veebilehtede teenusetingimused</a>.
+legalNoticeTestPilot = SendCrew on praegu Test Piloti eksperiment ja sellele rakenduvad Test Piloti <a>teenusetingimused</a> ning <a>privaatsusreeglid</a>. Rohkem teavet selle eksperimendi ja kogutavate andmete kohta leiab <a>siit</a>.
+legalNoticeMozilla = SendCrewi veebilehe kasutamisele rakenduvad ka Mozilla <a>veebilehtede privaatsusreeglid</a> ja <a>veebilehtede teenusetingimused</a>.
 deletePopupText = Kas kustutada see fail?
 deletePopupYes = Jah
 deletePopupCancel = Loobu
@@ -104,8 +104,8 @@ addPasswordButton = Lisa parool
 changePasswordButton = Muuda
 passwordTryAgain = Vale parool. Palun proovi uuesti.
 reportIPInfringement = Intellektuaalomandi keelatud kasutamise raporteerimine
-javascriptRequired = Firefox Send'i kasutamiseks tuleb JavaScript lubada
-whyJavascript = Miks Firefox Send JavaScripti vajab?
+javascriptRequired = SendCrew'i kasutamiseks tuleb JavaScript lubada
+whyJavascript = Miks SendCrew JavaScripti vajab?
 enableJavascript = Palun luba JavaScript ja proovi uuesti.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }t { $minutes }m

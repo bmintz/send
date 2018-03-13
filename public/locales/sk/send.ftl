@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = experiment pre web
 siteFeedback = Spätná väzba
 uploadPageHeader = Súkromné a šifrované zdieľanie súborov
@@ -55,16 +55,16 @@ unlockInputLabel = Zadajte heslo
 unlockInputPlaceholder = Heslo
 unlockButtonLabel = Odomknúť
 downloadFileTitle = Prevziať šifrovaný súbor
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Váš priateľ vám odoslal súbor pomocou služby Firefox Send - táto vám umožňuje zdieľať súbory pomocou bezpečného, súkromného a zašifrovaného odkazu, ktorého platnosť automaticky vyprší. Vďaka tomu máte istotu, že vaše súbory neostanú na internete naveky.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Váš priateľ vám odoslal súbor pomocou služby SendCrew - táto vám umožňuje zdieľať súbory pomocou bezpečného, súkromného a zašifrovaného odkazu, ktorého platnosť automaticky vyprší. Vďaka tomu máte istotu, že vaše súbory neostanú na internete naveky.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Prevziať
 downloadNotification = Vaše preberanie bolo dokončené.
 downloadFinish = Preberanie bolo dokončené
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } z { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Vyskúšajte Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Vyskúšajte SendCrew
 downloadingPageProgress = Preberá sa { $filename } ({ $size })
 downloadingPageMessage = Prosím, ponechajte túto kartu otvorenú zatiaľ čo váš súbor prevezmeme a dešifrujeme.
 errorAltText = Pri nahrávaní sa vyskytla chyba
@@ -75,10 +75,10 @@ fileTooBig = Súbor je príliš veľký. Mal by byť menší než { $size }.
 linkExpiredAlt = Platnosť odkazu vypršala
 expiredPageHeader = Platnosť tohto odkazu vypršala alebo daný odkaz nikdy neexistoval.
 notSupportedHeader = Váš prehliadač nie je podporovaný.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Žiaľ, tento prehliadač nepodporuje webovú technológiu, ktorá poháňa službu Firefox Send. Budete musieť vyskúšať iný prehliadač. My vám odporúčame Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Žiaľ, tento prehliadač nepodporuje webovú technológiu, ktorá poháňa službu SendCrew. Budete musieť vyskúšať iný prehliadač. My vám odporúčame Firefox!
 notSupportedLink = Prečo nie je môj prehliadač podporovaný?
-notSupportedOutdatedDetail = Žiaľ, táto verzia Firefoxu nepodporuje webovú technológiu, ktorá poháňa Firefox Send. Budete musieť aktualizovať svoj prehliadač.
+notSupportedOutdatedDetail = Žiaľ, táto verzia Firefoxu nepodporuje webovú technológiu, ktorá poháňa SendCrew. Budete musieť aktualizovať svoj prehliadač.
 updateFirefox = Aktualizovať Firefox
 downloadFirefoxButtonSub = Prevziať zadarmo
 uploadedFile = Súbor
@@ -88,8 +88,8 @@ expiryFileList = Platnosť vyprší
 deleteFileList = Odstrániť
 nevermindButton = Zrušiť
 legalHeader = Podmienky používania a súkromie
-legalNoticeTestPilot = Firefox Send je v súčasnosti experimentom projektu Test Pilot a vzťahujú sa naň <a>podmienky používania</a> a <a>zásady ochrany súkromia</a> Test Pilotu. Viac sa o zbieraní údajov experimentami dozviete <a>tu</a>.
-legalNoticeMozilla = Na použitie webovej stránky služby Firefox Send sa vzťahujú <a>zásady ochrany súkromia na webových stránkach</a> a <a>podmienky použitia webových stránok</a> Mozilly.
+legalNoticeTestPilot = SendCrew je v súčasnosti experimentom projektu Test Pilot a vzťahujú sa naň <a>podmienky používania</a> a <a>zásady ochrany súkromia</a> Test Pilotu. Viac sa o zbieraní údajov experimentami dozviete <a>tu</a>.
+legalNoticeMozilla = Na použitie webovej stránky služby SendCrew sa vzťahujú <a>zásady ochrany súkromia na webových stránkach</a> a <a>podmienky použitia webových stránok</a> Mozilly.
 deletePopupText = Naozaj chcete odstrániť tento súbor?
 deletePopupYes = Áno
 deletePopupCancel = Zrušiť
@@ -106,8 +106,8 @@ addPasswordButton = Pridať heslo
 changePasswordButton = Zmeniť
 passwordTryAgain = Nesprávne heslo. Skúste to znova.
 reportIPInfringement = Nahlásiť porušenie práv duševného vlastníctva
-javascriptRequired = Firefox Send vyžaduje JavaScript
-whyJavascript = Prečo Firefox Send vyžaduje JavaScript?
+javascriptRequired = SendCrew vyžaduje JavaScript
+whyJavascript = Prečo SendCrew vyžaduje JavaScript?
 enableJavascript = Prosím, povoľte JavaScript a skúste to znova.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } hod. { $minutes } min.

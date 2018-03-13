@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = un experiment web
 siteFeedback = Feedback
 uploadPageHeader = Partajare de fișiere privată și criptată
@@ -54,16 +54,16 @@ unlockInputLabel = Introdu parola
 unlockInputPlaceholder = Parolă
 unlockButtonLabel = Deblochează
 downloadFileTitle = Descarcă fișierul criptat
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Un prieten îți trimite un fișier prin Firefox Send, un serviciu care îți permite să împărtășești un fișier printr-un link sigur, privat și criptat care expiră automat pentru a păstra informațiile tale online doar temporar.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Un prieten îți trimite un fișier prin SendCrew, un serviciu care îți permite să împărtășești un fișier printr-un link sigur, privat și criptat care expiră automat pentru a păstra informațiile tale online doar temporar.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Descarcă
 downloadNotification = Descărcarea s-a încheiat.
 downloadFinish = Descărcare încheiată
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } din { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Încearcă Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Încearcă SendCrew
 downloadingPageProgress = Se descarcă { $filename } ({ $size })
 downloadingPageMessage = Te rugăm să păstrezi această file deschisă în timp ce preluăm fișierul și îl decriptăm.
 errorAltText = Eroare la încărcare
@@ -74,8 +74,8 @@ fileTooBig = Acest fișier este prea mare. Trebuie să fie sub { $size }.
 linkExpiredAlt = Link expirat
 expiredPageHeader = Acest link a expirat sau nu a existat de la bun început!
 notSupportedHeader = Browserul tău nu este suportat.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Din păcate acest browser nu suportă tehnologii web precum Firefox Send. Trebuie să încerci alt browser. Îți recomandăm Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Din păcate acest browser nu suportă tehnologii web precum SendCrew. Trebuie să încerci alt browser. Îți recomandăm Firefox!
 notSupportedLink = De ce browserul meu nu este suportat?
 notSupportedOutdatedDetail = Din păcate această versiune de Firefox nu suportă tehnologiile web din spatele Firefox Sent. Îți recomandăm să actualizezi browserul.
 updateFirefox = Actualizează Firefox
@@ -87,8 +87,8 @@ expiryFileList = Expiră în
 deleteFileList = Șterge
 nevermindButton = Uită
 legalHeader = Termeni de utilizare și politica de confidențialitate
-legalNoticeTestPilot = Firefox Send este momentan un experiment Test Pilot și supus <a>Termenilor de utilizare</a> Test Pilot și a <a>Politicii de confidențialitate</a>. Poți afla mai multe despre acest experiment <a>aici</a>.
-legalNoticeMozilla = Folosirea site-ului Firefox Send mai este supusă <a>Politicii de confidențialitate pentru site-uri web</a> și a <a>Termenilor de folosire a site-urilor web</a>.
+legalNoticeTestPilot = SendCrew este momentan un experiment Test Pilot și supus <a>Termenilor de utilizare</a> Test Pilot și a <a>Politicii de confidențialitate</a>. Poți afla mai multe despre acest experiment <a>aici</a>.
+legalNoticeMozilla = Folosirea site-ului SendCrew mai este supusă <a>Politicii de confidențialitate pentru site-uri web</a> și a <a>Termenilor de folosire a site-urilor web</a>.
 deletePopupText = Ștergi aceast fișier?
 deletePopupYes = Da
 deletePopupCancel = Renunță

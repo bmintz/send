@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = ajk'amaya'l solna'onem
 siteFeedback = Rutzijol
 uploadPageHeader = Kekomonïx Ichinan chuqa' Ewan Kisik'ixik taq Yakb'äl
@@ -53,16 +53,16 @@ unlockInputLabel = Titz'ib'äx Ewan Tzij
 unlockInputPlaceholder = Ewan tzij
 unlockButtonLabel = Titzij chik
 downloadFileTitle = Tiqasäx Yakb'äl Ewan Rusik'ixik
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Jun awachib'il xutäq jun yakb'äl chawe rik'in ri Firefox Send, jun samaj ri nuya' q'ij chawe ye'akomonij taq yakb'äl rik'in jun jikïl, ichinan chuqa' ewan rusik'ixik ximonel, ri nik'is ruq'ijul pa ruyonil richin chi ri taq awachinaq man junelïk ta e okel pa k'amab'ey.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Jun awachib'il xutäq jun yakb'äl chawe rik'in ri SendCrew, jun samaj ri nuya' q'ij chawe ye'akomonij taq yakb'äl rik'in jun jikïl, ichinan chuqa' ewan rusik'ixik ximonel, ri nik'is ruq'ijul pa ruyonil richin chi ri taq awachinaq man junelïk ta e okel pa k'amab'ey.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Tiqasäx
 downloadNotification = Xtz'aqät ri aqasanik.
 downloadFinish = Xtz'aqät qasanïk
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } richin { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Titojtob'ëx Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Titojtob'ëx SendCrew
 downloadingPageProgress = Tajin niqasäx { $filename } ({ $size })
 downloadingPageMessage = Tijaq kan re ruwi' re' richin niqaqasaj ri yakb'äl chuqa' richin niqetamaj rusik'ixik. 
 errorAltText = Xsach toq nijotob'äx
@@ -73,10 +73,10 @@ fileTooBig = Yalan nïm re yakb'äl re' richin nijotob'äx. K'o ta chi man nik'o
 linkExpiredAlt = Xk'is ruq'ijul ri ximonel
 expiredPageHeader = ¡Xk'is ruq'ijul re ximonel re' o rik'in jub'a' majub'ey xk'oje'!
 notSupportedHeader = Man koch'el ta ri awokik'amaya'l.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = K'ayew ruma re okik'amaya'l re' man nuköch' ta ajk'amaya'l na'ob'äl nik'atzin chi re ri Firefox Send. K'o chi natojtob'ej jun chik okik'amaya'l. ¡Niqachilab'ej chawe ri Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = K'ayew ruma re okik'amaya'l re' man nuköch' ta ajk'amaya'l na'ob'äl nik'atzin chi re ri SendCrew. K'o chi natojtob'ej jun chik okik'amaya'l. ¡Niqachilab'ej chawe ri Firefox!
 notSupportedLink = ¿Achike ruma man nikoch' taq ri wokik'amaya'l?
-notSupportedOutdatedDetail = K'ayew ruma re ruwäch Firefox re' man nuköch' ta ri ajk'amaya'l na'ob'äl nrajo' ri Firefox Send. Rajowaxik nak'ëx ri awokik'amaya'l.
+notSupportedOutdatedDetail = K'ayew ruma re ruwäch Firefox re' man nuköch' ta ri ajk'amaya'l na'ob'äl nrajo' ri SendCrew. Rajowaxik nak'ëx ri awokik'amaya'l.
 updateFirefox = Tik'ex ri Firefox
 downloadFirefoxButtonSub = Sipan Ruqasaxik
 uploadedFile = Yakb'äl
@@ -86,8 +86,8 @@ expiryFileList = Nik'is Ruq'ijul Pa
 deleteFileList = Tiyuj
 nevermindButton = Junam nub'än
 legalHeader = Ojqanem chuqa' Ichinanem
-legalNoticeTestPilot = Firefox Send k'a jun rutojtob'enik Test Pilot, chuqa' rutaqen rutzij ri <a>Rojqanem Samaj</a> chuqa' rik'in ri <a>Rutzijol Ichinanem</a>. Yatikïr nawetamaj ch'aq'a' chik chi rij re solna'oj re' chuqa' ri rumolik tzij <a>wawe'</a>.
-legalNoticeMozilla = Richin nokisäx ri ruxaq ruk'amaya'l Firefox Send k'o chi nitaqëx ri <a>Rutzijol Richinanem Ajk'amaya'l Ruxaq</a> chuqa' <a>Rojqanem rokisaxik Ajk'amaya'l Ruxaq</a>.
+legalNoticeTestPilot = SendCrew k'a jun rutojtob'enik Test Pilot, chuqa' rutaqen rutzij ri <a>Rojqanem Samaj</a> chuqa' rik'in ri <a>Rutzijol Ichinanem</a>. Yatikïr nawetamaj ch'aq'a' chik chi rij re solna'oj re' chuqa' ri rumolik tzij <a>wawe'</a>.
+legalNoticeMozilla = Richin nokisäx ri ruxaq ruk'amaya'l SendCrew k'o chi nitaqëx ri <a>Rutzijol Richinanem Ajk'amaya'l Ruxaq</a> chuqa' <a>Rojqanem rokisaxik Ajk'amaya'l Ruxaq</a>.
 deletePopupText = ¿La niyuj el re yakb'äl re'?
 deletePopupYes = Ja'
 deletePopupCancel = Tiq'at
@@ -104,8 +104,8 @@ addPasswordButton = Titz'aqatisäx Ewan Tzij
 changePasswordButton = Tijalwachïx
 passwordTryAgain = Itzel ri ewan tzij. Tatojtob'ej chik.
 reportIPInfringement = Tiya' rutzijol ri Ritzelanik Ajna'oj Ichinil
-javascriptRequired = K'atzinel JavaScript chi re ri Firefox Send
-whyJavascript = ¿Achike ruma toq ri Firefox Send nrajo' JavaScript?
+javascriptRequired = K'atzinel JavaScript chi re ri SendCrew
+whyJavascript = ¿Achike ruma toq ri SendCrew nrajo' JavaScript?
 enableJavascript = Titz'ij JavaScript richin nitojtob'ëx chik.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }r { $minutes }ch

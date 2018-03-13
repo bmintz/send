@@ -1,5 +1,5 @@
-// Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+// SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = eksperimen web
 siteFeedback = Saran
 uploadPageHeader = Pribadi, Berbagi Berkas Terenskripsi
@@ -46,16 +46,16 @@ unlockInputLabel = Masukkan Sandi
 unlockInputPlaceholder = Sandi
 unlockButtonLabel = Buka
 downloadFileTitle = Unduh Berkas Terenkripsi
-// Firefox Send is a brand name and should not be localized.
-downloadMessage = Teman Anda mengirimkan berkas dengan Firefox Send, layanan yang memungkinkan Anda berbagi berkas dengan tautan yang aman, pribadi, dan terenkripsi yang secara otomatis berakhir untuk memastikan berkas Anda tidak daring selamanya.
+// SendCrew is a brand name and should not be localized.
+downloadMessage = Teman Anda mengirimkan berkas dengan SendCrew, layanan yang memungkinkan Anda berbagi berkas dengan tautan yang aman, pribadi, dan terenkripsi yang secara otomatis berakhir untuk memastikan berkas Anda tidak daring selamanya.
 // Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Unduh
 downloadNotification = Unduhan Anda telah selesai.
 downloadFinish = Unduhan Selesai
 // This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } dari { $totalSize })
-// Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Coba Firefox Send
+// SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Coba SendCrew
 downloadingPageProgress = Mengunduh { $filename } ({ $size })
 downloadingPageMessage = Sila biarkan tab ini terbuka sementara kami memproses berkas Anda dan mendekripsinya.
 errorAltText = Unggahan bermasalah
@@ -66,10 +66,10 @@ fileTooBig = Berkas terlalu besar untuk diunggah. Harus kurang dari { $size }.
 linkExpiredAlt = Tautan kedaluwarsa
 expiredPageHeader = Tautan ini telah kedaluwarsa atau tidak pernah ada!
 notSupportedHeader = Peramban Anda tidak mendukung.
-// Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Sayangnya peramban ini tidak mendukung teknologi web yang menggerakkan Firefox Send. Anda perlu mencoba peramban lain. Kami merekomendasikan Firefox!
+// SendCrew is a brand name and should not be localized.
+notSupportedDetail = Sayangnya peramban ini tidak mendukung teknologi web yang menggerakkan SendCrew. Anda perlu mencoba peramban lain. Kami merekomendasikan Firefox!
 notSupportedLink = Mengapa peramban saya tidak didukung?
-notSupportedOutdatedDetail = Sayangnya Firefox versi ini tidak mendukung teknologi web yang menggerakkan Firefox Send. Anda perlu memperbarui peramban Anda.
+notSupportedOutdatedDetail = Sayangnya Firefox versi ini tidak mendukung teknologi web yang menggerakkan SendCrew. Anda perlu memperbarui peramban Anda.
 updateFirefox = Perbarui Firefox
 downloadFirefoxButtonSub = Unduh Gratis
 uploadedFile = Berkas
@@ -79,8 +79,8 @@ expiryFileList = Kedaluwarsa Pada
 deleteFileList = Hapus
 nevermindButton = Abaikan
 legalHeader = Syarat & Privasi
-legalNoticeTestPilot = Saat ini Firefox Send merupakan eksperimen Test Pilot, dan merupakan subyek dari <a>Ketentuan Layanan</a> dan <a>Pemberitahuan Privasi</a> Test Pilot. Anda dapat mempelajari lebih lanjut tentang eksperimen ini dan pengumpulan datanya <a>di sini</a>.
-legalNoticeMozilla = Penggunaan situs Firefox Send juga merupakan subyek dari <a>Pemberitahuan Privasi Situs Web</a> dan <a>Persyaratan Penggunaan Situs Web</a> Mozilla.
+legalNoticeTestPilot = Saat ini SendCrew merupakan eksperimen Test Pilot, dan merupakan subyek dari <a>Ketentuan Layanan</a> dan <a>Pemberitahuan Privasi</a> Test Pilot. Anda dapat mempelajari lebih lanjut tentang eksperimen ini dan pengumpulan datanya <a>di sini</a>.
+legalNoticeMozilla = Penggunaan situs SendCrew juga merupakan subyek dari <a>Pemberitahuan Privasi Situs Web</a> dan <a>Persyaratan Penggunaan Situs Web</a> Mozilla.
 deletePopupText = Hapus berkas ini?
 deletePopupYes = Ya
 deletePopupCancel = Batal

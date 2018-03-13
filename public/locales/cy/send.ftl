@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = arbrawf gwe
 siteFeedback = Adborth
 uploadPageHeader = Rhannu Ffeiliau wedi eu Hamgryptio yn Breifat
@@ -57,16 +57,16 @@ unlockInputLabel = Rhowch Gyfrinair
 unlockInputPlaceholder = Cyfrinair
 unlockButtonLabel = Datgloi
 downloadFileTitle = Llwythwch Ffeil wedi ei Hamgryptio i Lawr
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Mae ffrind i chi yn anfon ffeil atoch drwy Firefox Send, gwasanaeth sy'n caniatáu i chi rannu ffeiliau drwy ddolen ddiogel, breifat ac wedi ei amgryptio sy'n dod i ben yn awtomatig er mwyn sicrhau nad yw eich deunydd yn aros ar-lein am byth.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Mae ffrind i chi yn anfon ffeil atoch drwy SendCrew, gwasanaeth sy'n caniatáu i chi rannu ffeiliau drwy ddolen ddiogel, breifat ac wedi ei amgryptio sy'n dod i ben yn awtomatig er mwyn sicrhau nad yw eich deunydd yn aros ar-lein am byth.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Llwytho i Lawr
 downloadNotification = Mae eich llwytho wedi gorffen
 downloadFinish = Llwytho wedi Gorffen
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } o { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Rhowch gynnig ar Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Rhowch gynnig ar SendCrew
 downloadingPageProgress = Llwytho i lawr { $filename } ({ $size })
 downloadingPageMessage = Gadewch y tab yma ar agor tra fyddwn yn estyn eich ffeil a'i dad-amgryptio.
 errorAltText = Gwall llwytho
@@ -77,10 +77,10 @@ fileTooBig = Mae'r ffeil yn rhy fawr i'w llwytho. Dylai fod yn llai na { $size }
 linkExpiredAlt = Mae'r ddolen wedi dod i ben
 expiredPageHeader = Mae'r ddolen wedi dod i ben neu nad yw wedi bodoli erioed!
 notSupportedHeader = Nid yw eich porwr yn cael ei gynnal.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Yn anffodus, nid yw'r porwr hwn yn cynnal y technoleg gwe sy'n cynnal Firefox Send. Bydd angen i chi ddefnyddio porwr arall. Rydym ni'n argymell Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Yn anffodus, nid yw'r porwr hwn yn cynnal y technoleg gwe sy'n cynnal SendCrew. Bydd angen i chi ddefnyddio porwr arall. Rydym ni'n argymell Firefox!
 notSupportedLink = Pam nad yw fy mhorwr yn cael ei gynnal?
-notSupportedOutdatedDetail = Yn anffodus, nid yw'r fersiwn yma o Firefox yn cynnal y technoleg gwe sy'n gyrru Firefox Send. Bydd angen i chi ddiweddaru eich porwr.
+notSupportedOutdatedDetail = Yn anffodus, nid yw'r fersiwn yma o Firefox yn cynnal y technoleg gwe sy'n gyrru SendCrew. Bydd angen i chi ddiweddaru eich porwr.
 updateFirefox = Diweddaru Firefox
 downloadFirefoxButtonSub = Llwytho i Lawr am Ddim
 uploadedFile = Ffeil
@@ -90,8 +90,8 @@ expiryFileList = Daw i ben ymhen
 deleteFileList = Dileu
 nevermindButton = Dim ots
 legalHeader = Amodau a Phreifatrwydd
-legalNoticeTestPilot = Ar hyn o mae Firefox Send yn arbrawf  o fewn rhaglen Test Pilot ac yn destun <a>Amodau Gwasanaeth</a> a <a>Hysbysiad Preifatrwydd</a> Test Pilot . Gallwch ddysgu rhagor am yr arbrawf a'r data mae'n ei gasglu <a>yma</a>.
-legalNoticeMozilla = Mae'r defnydd o wefan Firefox Send hefyd yn destun <a>Hysbysiad Preifatrwydd Gwefannau</a> ac <a>Amodau Defnydd Gwefannau</a> Mozilla.
+legalNoticeTestPilot = Ar hyn o mae SendCrew yn arbrawf  o fewn rhaglen Test Pilot ac yn destun <a>Amodau Gwasanaeth</a> a <a>Hysbysiad Preifatrwydd</a> Test Pilot . Gallwch ddysgu rhagor am yr arbrawf a'r data mae'n ei gasglu <a>yma</a>.
+legalNoticeMozilla = Mae'r defnydd o wefan SendCrew hefyd yn destun <a>Hysbysiad Preifatrwydd Gwefannau</a> ac <a>Amodau Defnydd Gwefannau</a> Mozilla.
 deletePopupText = Dileu'r ffeil?
 deletePopupYes = Iawn
 deletePopupCancel = Diddymu
@@ -108,8 +108,8 @@ addPasswordButton = Ychwanegu Cyfrinair
 changePasswordButton = Newid
 passwordTryAgain = Cyfrinair anghywir. Ceisiwch eto.
 reportIPInfringement = Adrodd ar Gamddefnydd o'r IP
-javascriptRequired = Mae Firefox Send angen JavaScript
-whyJavascript = Pam fod Firefox Send angen JavaScript?
+javascriptRequired = Mae SendCrew angen JavaScript
+whyJavascript = Pam fod SendCrew angen JavaScript?
 enableJavascript = Galluogwch JavaScript a cheisio eto.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }a { $minutes }m

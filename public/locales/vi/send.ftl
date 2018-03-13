@@ -1,5 +1,5 @@
-// Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+// SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = Thử nghiệm trên web
 siteFeedback = Phản hồi
 uploadPageHeader = Chia sẻ tập tin riêng tư, được mã hóa
@@ -34,16 +34,16 @@ sendAnotherFileLink = Gửi tập tin khác
 downloadAltText = Tải về
 downloadFileName = Tải về { $filename }
 downloadFileSize = ({ $size })
-// Firefox Send is a brand name and should not be localized.
-downloadMessage = Bạn của bạn đang gửi một tập tin thông qua Firefox Send, một dịch vụ cho phép bạn chia sẻ tập tin một cách an toàn, riêng tư, có liên kết được mã hóa và sẽ tự động hết hạn để chắc chắn rằng dữ liệu của bạn không nằm mãi mãi trên Internet.
+// SendCrew is a brand name and should not be localized.
+downloadMessage = Bạn của bạn đang gửi một tập tin thông qua SendCrew, một dịch vụ cho phép bạn chia sẻ tập tin một cách an toàn, riêng tư, có liên kết được mã hóa và sẽ tự động hết hạn để chắc chắn rằng dữ liệu của bạn không nằm mãi mãi trên Internet.
 // Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Tải về
 downloadNotification = Quá trình tải về đã hoàn tất.
 downloadFinish = Tải về hoàn tất
 // This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } trong { $totalSize })
-// Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Dùng thử Firefox Send
+// SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Dùng thử SendCrew
 downloadingPageProgress = Đang tải về { $filename } ({ $size })
 downloadingPageMessage = Vui lòng giữ cửa sổ này mở trong khi chúng tôi lấy tập tin và giải mã chúng.
 errorAltText = Lỗi tải lên
@@ -54,10 +54,10 @@ fileTooBig = Tập tin này quá lớn để tải lên. Kích thước tập ti
 linkExpiredAlt = Liên kết đã hết hạn
 expiredPageHeader = Liên kết này đã hết hạn hoặc chưa từng được sử dụng!
 notSupportedHeader = Trình duyệt của bạn không được hỗ trợ.
-// Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Thật không may trình duyệt này không hỗ trợ công nghệ đã tạo nên Firefox Send. Bạn cần thử với trình duyệt khác. Chúng tôi khuyên dùng Firefox!
+// SendCrew is a brand name and should not be localized.
+notSupportedDetail = Thật không may trình duyệt này không hỗ trợ công nghệ đã tạo nên SendCrew. Bạn cần thử với trình duyệt khác. Chúng tôi khuyên dùng Firefox!
 notSupportedLink = Tại sao trình duyệt của tôi không được hỗ trợ?
-notSupportedOutdatedDetail = Thật không may là phiên bản Firefox này không hỗ trợ công nghệ được sử dụng trong Firefox Send. Bạn cần cập nhật trình duyệt của bạn.
+notSupportedOutdatedDetail = Thật không may là phiên bản Firefox này không hỗ trợ công nghệ được sử dụng trong SendCrew. Bạn cần cập nhật trình duyệt của bạn.
 updateFirefox = Cập nhật Firefox
 downloadFirefoxButtonSub = Tải về miễn phí
 uploadedFile = Tập tin
@@ -67,8 +67,8 @@ expiryFileList = Hết hạn trong
 deleteFileList = Xóa
 nevermindButton = Đừng bận tâm
 legalHeader = Điều khoản & Quyền riêng tư
-legalNoticeTestPilot = Firefox Send hiện tại đang là một thử nghiệm Test Pilot, và phải tuân theo <a>Điều khoản dịch vụ</a> và <a>Lưu ý về Quyền riêng tư</a>. Bạn có thể tìm hiểu thêm về thử nghiệm này và dữ liệu được thu thập <a>tại đây</a>.
-legalNoticeMozilla = Sử dụng trang web Firefox Send cũng phải tuân theo Mozilla's <a>Lưu ý về Quyền riêng tư của trang web</a> và <a>Điều khoản sử dụng của trang web</a>.
+legalNoticeTestPilot = SendCrew hiện tại đang là một thử nghiệm Test Pilot, và phải tuân theo <a>Điều khoản dịch vụ</a> và <a>Lưu ý về Quyền riêng tư</a>. Bạn có thể tìm hiểu thêm về thử nghiệm này và dữ liệu được thu thập <a>tại đây</a>.
+legalNoticeMozilla = Sử dụng trang web SendCrew cũng phải tuân theo Mozilla's <a>Lưu ý về Quyền riêng tư của trang web</a> và <a>Điều khoản sử dụng của trang web</a>.
 deletePopupText = Xóa tập tin này?
 deletePopupYes = Đồng ý
 deletePopupCancel = Hủy bỏ

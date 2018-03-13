@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# SendCrew is a brand name and should not be localized.
 title = فَيَرفُكس سِنْد
 siteSubtitle = تجربة وِبّيّة
 siteFeedback = الانطباعات
@@ -68,7 +68,7 @@ unlockInputLabel = أدخل كلمة السر
 unlockInputPlaceholder = كلمة السر
 unlockButtonLabel = افتح القفل
 downloadFileTitle = نزِّل الملف المعمّى
-# Firefox Send is a brand name and should not be localized.
+# SendCrew is a brand name and should not be localized.
 downloadMessage = يُرسل إليك صديقك ملفا عبر «فَيَرفُكس سِنْد»، وهي خدمة تتيح لك مشاركة الملفات عبر رابط آمن وخاص ومعمّى، حيث تنتهي صلاحياتها تلقائيا لتضمن عدم بقاء ما ترسله إلى الأبد.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = نزّل
@@ -77,7 +77,7 @@ downloadNotification = لقد اكتمل التنزيل.
 downloadFinish = اكتمل التنزيل
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } من أصل { $totalSize })
-# Firefox Send is a brand name and should not be localized.
+# SendCrew is a brand name and should not be localized.
 sendYourFilesLink = جرِّب «فَيَرفُكس سِنْد»
 downloadingPageProgress = ينزّل { $filename } ({ $size })
 downloadingPageMessage = رجاء أبقِ هذا اللسان مفتوحا حتى نجلب الملف ونفك تعميته.
@@ -90,7 +90,7 @@ fileTooBig = حجم الملف كبير للغاية لرفعه. يجب أن ي�
 linkExpiredAlt = انتهت صلاحية الرابط
 expiredPageHeader = انتهت صلاحية هذا الرابط أو لم يكن موجودا في المقام الأول!
 notSupportedHeader = متصفحك غير مدعوم.
-# Firefox Send is a brand name and should not be localized.
+# SendCrew is a brand name and should not be localized.
 notSupportedDetail = للأسف فإن متصفحك لا يدعم تقنية الوِب التي يعتمد عليها «فَيَرفُكس سِنْد». عليك تجربة متصفح آخر، ونحن ننصحك بِفَيَرفُكس!
 notSupportedLink = لماذا متصفحي غير مدعوم؟
 notSupportedOutdatedDetail = للأسف فإن إصدارة فَيَرفُكس هذه لا تدعم تقنية الوِب التي يعتمد عليها «فَيَرفُكس سِنْد». عليك تحديث متصفحك.

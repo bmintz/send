@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = webexperiment
 siteFeedback = Feedback
 uploadPageHeader = Privé, versleuteld bestanden delen
@@ -53,16 +53,16 @@ unlockInputLabel = Voer wachtwoord in
 unlockInputPlaceholder = Wachtwoord
 unlockButtonLabel = Ontgrendelen
 downloadFileTitle = Versleuteld bestand downloaden
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Uw vriend(in) stuurt u een bestand met Firefox Send, een dienst waarmee u bestanden kunt verzenden met een veilige, private en versleutelde koppeling die automatisch verloopt, zodat u zeker weet dat uw zaken niet onbeperkt online blijven.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Uw vriend(in) stuurt u een bestand met SendCrew, een dienst waarmee u bestanden kunt verzenden met een veilige, private en versleutelde koppeling die automatisch verloopt, zodat u zeker weet dat uw zaken niet onbeperkt online blijven.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Downloaden
 downloadNotification = Uw download is voltooid.
 downloadFinish = Downloaden voltooid
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } van { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Firefox Send proberen
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = SendCrew proberen
 downloadingPageProgress = { $filename } ({ $size }) wordt gedownload
 downloadingPageMessage = Laat dit tabblad geopend terwijl uw bestand wordt opgehaald en ontcijferd.
 errorAltText = Uploadfout
@@ -73,10 +73,10 @@ fileTooBig = Dat bestand is te groot om te worden geüpload. Het moet kleiner zi
 linkExpiredAlt = Koppeling verlopen
 expiredPageHeader = Deze koppeling is verlopen of heeft überhaupt nooit bestaan!
 notSupportedHeader = Uw browser wordt niet ondersteund.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Helaas ondersteunt deze browser de webtechnologie die Firefox Send gebruikt niet. U dient een andere browser te proberen. Firefox wordt aanbevolen!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Helaas ondersteunt deze browser de webtechnologie die SendCrew gebruikt niet. U dient een andere browser te proberen. Firefox wordt aanbevolen!
 notSupportedLink = Waarom wordt mijn browser niet ondersteund?
-notSupportedOutdatedDetail = Helaas ondersteunt deze versie van Firefox de webtechnologie die Firefox Send gebruikt niet. U dient uw browser bij te werken.
+notSupportedOutdatedDetail = Helaas ondersteunt deze versie van Firefox de webtechnologie die SendCrew gebruikt niet. U dient uw browser bij te werken.
 updateFirefox = Firefox bijwerken
 downloadFirefoxButtonSub = Gratis download
 uploadedFile = Bestand
@@ -86,8 +86,8 @@ expiryFileList = Verloopt over
 deleteFileList = Verwijderen
 nevermindButton = Maakt niet uit
 legalHeader = Voorwaarden en privacy
-legalNoticeTestPilot = Firefox Send is momenteel een Test Pilot-experiment en onderhevig aan de <a>Servicevoorwaarden</a> en <a>Privacyverklaring</a> van Test Pilot. <a>Hier</a> vindt u meer info over dit experiment en de gegevensverzameling ervan.
-legalNoticeMozilla = Gebruik van de Firefox Send-website is ook onderhevig aan de <a>Privacyverklaring voor websites</a> en <a>Servicevoorwaarden voor websites</a> van Mozilla.
+legalNoticeTestPilot = SendCrew is momenteel een Test Pilot-experiment en onderhevig aan de <a>Servicevoorwaarden</a> en <a>Privacyverklaring</a> van Test Pilot. <a>Hier</a> vindt u meer info over dit experiment en de gegevensverzameling ervan.
+legalNoticeMozilla = Gebruik van de SendCrew-website is ook onderhevig aan de <a>Privacyverklaring voor websites</a> en <a>Servicevoorwaarden voor websites</a> van Mozilla.
 deletePopupText = Dit bestand verwijderen?
 deletePopupYes = Ja
 deletePopupCancel = Annuleren
@@ -104,8 +104,8 @@ addPasswordButton = Wachtwoord toevoegen
 changePasswordButton = Wijzigen
 passwordTryAgain = Onjuist wachtwoord. Probeer het opnieuw.
 reportIPInfringement = IE-inbreuk melden
-javascriptRequired = Firefox Send vereist JavaScript
-whyJavascript = Waarom vereist Firefox Send JavaScript?
+javascriptRequired = SendCrew vereist JavaScript
+whyJavascript = Waarom vereist SendCrew JavaScript?
 enableJavascript = Schakel JavaScript in en probeer het opnieuw.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }u { $minutes }m

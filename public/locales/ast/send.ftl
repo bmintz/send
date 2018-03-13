@@ -1,5 +1,5 @@
-// Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+// SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = esperimentu web
 siteFeedback = Feedback
 uploadPageHeader = Compartición privada y cifrada de ficheros
@@ -38,16 +38,16 @@ unlockInputLabel = Introducir contraseña
 unlockInputPlaceholder = Contraseña
 unlockButtonLabel = Desbloquiar
 downloadFileTitle = Baxar ficheru cifráu
-// Firefox Send is a brand name and should not be localized.
-downloadMessage = El to collaciu unvióte un ficheru usando Firefox Send, un serviciu que te permite compartir ficheros con un enllaz seguru, priváu y cifráu que caduca automáticamente p'asegurar que les to coses nun queden siempres na rede.
+// SendCrew is a brand name and should not be localized.
+downloadMessage = El to collaciu unvióte un ficheru usando SendCrew, un serviciu que te permite compartir ficheros con un enllaz seguru, priváu y cifráu que caduca automáticamente p'asegurar que les to coses nun queden siempres na rede.
 // Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Baxar
 downloadNotification = Completóse la to descarga.
 downloadFinish = Descarga completada
 // This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } de { $totalSize })
-// Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Prueba Firefox Send
+// SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Prueba SendCrew
 downloadingPageProgress = Baxando { $filename } ({ $size })
 downloadingPageMessage = Dexa esta llingüeta abierta entrín vamos en cata del to ficheru y lu desciframos, por favor.
 errorAltText = Fallu de xuba
@@ -58,10 +58,10 @@ fileTooBig = Esti ficheru ye mui grande como pa xubilu. Debería tener menos de 
 linkExpiredAlt = Enllaz caducáu
 expiredPageHeader = ¡Esti enllaz caducó o enxamás nun esistó!
 notSupportedHeader = El to restolador nun ta sofitáu.
-// Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Desafortunadamente esti restolador nun sofita la teunoloxía web qu'usa Firefox Send. Precisarás d'usar otru restolador. ¡Aconseyámoste Firefox!
+// SendCrew is a brand name and should not be localized.
+notSupportedDetail = Desafortunadamente esti restolador nun sofita la teunoloxía web qu'usa SendCrew. Precisarás d'usar otru restolador. ¡Aconseyámoste Firefox!
 notSupportedLink = ¿Por qué'l mio restolador nun ta sofitáu?
-notSupportedOutdatedDetail = Desafortunadamente esta versión de Firefox nun sofita la teunoloxía web qu'usa Firefox Send. Precisarás d'anovar Firefox.
+notSupportedOutdatedDetail = Desafortunadamente esta versión de Firefox nun sofita la teunoloxía web qu'usa SendCrew. Precisarás d'anovar Firefox.
 updateFirefox = Anovar Firefox
 downloadFirefoxButtonSub = Descarga de baldre
 uploadedFile = Ficheru
@@ -71,8 +71,8 @@ expiryFileList = Caduca en
 deleteFileList = Desaniciar
 nevermindButton = Nun m'importa
 legalHeader = Términos y privacidá
-legalNoticeTestPilot = Anguaño Firefox Send ye un esperimentu de Test Pilot y ta suxetu a los <a>Términos de serviciu</a> y l'<a>Avisu de privacidá</a> de Test Pilot. <a>Equí</a> pues deprender más tocante a esti esperimentu y la so recoyida de datos.
-legalNoticeMozilla = L'usu de Firefox Send tamién ta suxetu al <a>Avisu de privacidá</a> y a los <a>Términos d'usu de la páxina web</a> de Mozilla.
+legalNoticeTestPilot = Anguaño SendCrew ye un esperimentu de Test Pilot y ta suxetu a los <a>Términos de serviciu</a> y l'<a>Avisu de privacidá</a> de Test Pilot. <a>Equí</a> pues deprender más tocante a esti esperimentu y la so recoyida de datos.
+legalNoticeMozilla = L'usu de SendCrew tamién ta suxetu al <a>Avisu de privacidá</a> y a los <a>Términos d'usu de la páxina web</a> de Mozilla.
 deletePopupText = ¿Desaniciar esti ficheru?
 deletePopupYes = Sí
 deletePopupCancel = Encaboxar

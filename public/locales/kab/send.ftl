@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = Tarmit web
 siteFeedback = Tikti
 uploadPageHeader = Beṭṭu n ifuyla s uwgelhen akked tbaḍnit
@@ -53,16 +53,16 @@ unlockInputLabel = Sekcem awal uffir
 unlockInputPlaceholder = Awal uffir
 unlockButtonLabel = Serreḥ
 downloadFileTitle = Sider afaylu awgelhan
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Amdakel-ik yuzen-ak-d afaylu s Firefox Firefox Send, ameẓlu ara yeǧǧen tuzna n ifuyla s wudem aɣelsan, s tbadnit akked uwgelhen s useqdec n useqwen ara yeùten s wudem awurman akken talqut-ik ur tettɣimi ara srid i lebda.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Amdakel-ik yuzen-ak-d afaylu s Firefox SendCrew, ameẓlu ara yeǧǧen tuzna n ifuyla s wudem aɣelsan, s tbadnit akked uwgelhen s useqdec n useqwen ara yeùten s wudem awurman akken talqut-ik ur tettɣimi ara srid i lebda.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Sider
 downloadNotification = Asider-ik yemmed.
 downloadFinish = Asider yemmed
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } seg { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Ɛreḍ Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Ɛreḍ SendCrew
 downloadingPageProgress = Asider n { $filename } ({ $size })
 downloadingPageMessage = Eǧǧ iccer-agi yeldi ticki nettnadi afaylu akken ad newgelhen.
 errorAltText = Tuccḍa n tuzna
@@ -73,10 +73,10 @@ fileTooBig = Afaylu-agi meqqeṛ aṭas. Yessefk ad yili daw n  { $size }.
 linkExpiredAlt = Aseɣwen yemmut
 expiredPageHeader = Aseɣwen-agi yemmut neɣ wurǧin yella seg tazwara!
 notSupportedHeader = Iminig-ik ur ittusefrak ara
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Ad nesḥissef imi iminig-ik ur isefrak ara tatiknulujit web iseqdac Firefox Send. Yessefk ad tesqedceḍ iminig-nniḍen. Seqdec Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Ad nesḥissef imi iminig-ik ur isefrak ara tatiknulujit web iseqdac SendCrew. Yessefk ad tesqedceḍ iminig-nniḍen. Seqdec Firefox!
 notSupportedLink = Ayγer iminig inu ur yettwasefrek ara?
-notSupportedOutdatedDetail = Ad nesḥissef imilqem-agi n Firefox Firefox ur isefrak ara titiknulujiyin web yettwaseqdacen di Firefox Send. Yessefk ad tleqmeḍ iminig-ik.
+notSupportedOutdatedDetail = Ad nesḥissef imilqem-agi n Firefox Firefox ur isefrak ara titiknulujiyin web yettwaseqdacen di SendCrew. Yessefk ad tleqmeḍ iminig-ik.
 updateFirefox = Leqqem Firefox
 downloadFirefoxButtonSub = Asider ilelli
 uploadedFile = Afaylu
@@ -86,8 +86,8 @@ expiryFileList = Ad ifak di
 deleteFileList = Kkes
 nevermindButton = Wicqa
 legalHeader = Tiwtilin &tabaḍnit
-legalNoticeTestPilot = Firefox Send yettwasekyad akka tura am tarmit Test Pilot, ihi ad yili daw n <a>n tewtilin n useqdec </a> n  Test Pilot akked <a>Tasertit n tbaḍnit</a>. Tzemreḍ ad teẓreḍ ugar ɣeef tarmit-agi akked ulqaḍ n isefka<a> dagihere</a>.
-legalNoticeMozilla = Aseqdec n usmel n Firefox Send yella daw n <a> ilugan tbaḍnit n yismal web </a> n Mozilla akked <a> Tiwtilin n useqdec n yismal Web</a> n Mozilla.
+legalNoticeTestPilot = SendCrew yettwasekyad akka tura am tarmit Test Pilot, ihi ad yili daw n <a>n tewtilin n useqdec </a> n  Test Pilot akked <a>Tasertit n tbaḍnit</a>. Tzemreḍ ad teẓreḍ ugar ɣeef tarmit-agi akked ulqaḍ n isefka<a> dagihere</a>.
+legalNoticeMozilla = Aseqdec n usmel n SendCrew yella daw n <a> ilugan tbaḍnit n yismal web </a> n Mozilla akked <a> Tiwtilin n useqdec n yismal Web</a> n Mozilla.
 deletePopupText = Kkes afaylu-agi?
 deletePopupYes = Ih
 deletePopupCancel = Sefsex
@@ -104,7 +104,7 @@ addPasswordButton = rnu awal uffir
 changePasswordButton = Snifel
 passwordTryAgain = Yir awal uffir. Ɛreḍ tikelt nniḍen.
 reportIPInfringement = Neqqes akukel n IP
-javascriptRequired = Firefox Send yesra JavaScript
+javascriptRequired = SendCrew yesra JavaScript
 whyJavascript = Ayɣer firefox Send yesra JavaScript?
 enableJavascript = Ma ulac aɣilif rmed JavaScript sakin ɛreḍ tikkelt nniḍen.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"

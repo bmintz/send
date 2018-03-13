@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = webeksperiment
 siteFeedback = Kommentaar
 uploadPageHeader = Privee, fersifere bestânsdieling
@@ -53,16 +53,16 @@ unlockInputLabel = Wachtwurd ynfiere
 unlockInputPlaceholder = Wachtwurd
 unlockButtonLabel = Deblokkearje
 downloadFileTitle = Fersifere bestân downloade
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Jo freon stjoert jo in best^n mei Firefox Send, in tsjinst dy't jo yn steat stelt bestannen te dielen mei in feilige, privee en fersifere keppeling dy't automatysk ferrint om wis te wêzen dat jo guod net foar altyd online bliuwt.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Jo freon stjoert jo in best^n mei SendCrew, in tsjinst dy't jo yn steat stelt bestannen te dielen mei in feilige, privee en fersifere keppeling dy't automatysk ferrint om wis te wêzen dat jo guod net foar altyd online bliuwt.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Downloade
 downloadNotification = Jo download is foltôge.
 downloadFinish = Download foltôge
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } fan { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Firefox Send probearje
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = SendCrew probearje
 downloadingPageProgress = { $filename } ({ $size }) wurdt download
 downloadingPageMessage = Lit dit ljepblêd iepen wylst wy jo bestân krije en ûntsiferje.
 errorAltText = Oplaadflater
@@ -73,10 +73,10 @@ fileTooBig = It bestân is te grut om op te laden. It moat lytser wêze as { $si
 linkExpiredAlt = Keppeling ferrûn
 expiredPageHeader = Dizze keppeling is ferrûn of hat nea bestien!
 notSupportedHeader = Jo browser wurdt net stipe.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Spitigernôch stipet dizze browser de webtechnology dy't Firefox Send mooglik makket net. Jo moatte in oare browser probearje. Wy rekommandearje Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Spitigernôch stipet dizze browser de webtechnology dy't SendCrew mooglik makket net. Jo moatte in oare browser probearje. Wy rekommandearje Firefox!
 notSupportedLink = Wêrom wurdt myn browser net stipe?
-notSupportedOutdatedDetail = Spitigernôch stipet dizze ferzje fan Firefox de webtechnology dy't Firefox Send mooflik makket net. Jo moatte jo browser fernije.
+notSupportedOutdatedDetail = Spitigernôch stipet dizze ferzje fan Firefox de webtechnology dy't SendCrew mooflik makket net. Jo moatte jo browser fernije.
 updateFirefox = Firefox fernije
 downloadFirefoxButtonSub = Fergese download
 uploadedFile = Bestân
@@ -86,8 +86,8 @@ expiryFileList = Ferrint oer
 deleteFileList = Fuortsmite
 nevermindButton = Lit mar
 legalHeader = Betingsten en privacy
-legalNoticeTestPilot = Firefox Send is op dit stuit in Test Pilot-eksperimint en falt ûnder de <a>Betingsten</a> en <a>Privacybelied</a> fan Test Pilot. Mear ynformaasje oer dit eksperimint en de gegevenssamling stiet<a>hjir</a>.
-legalNoticeMozilla = Gebrûk fan de Firefox Send-website falt ek ûnder it <a>Websites Privacybelied</a> en <a>Websites Gebrûksbetingsten</a> fan Mozilla.
+legalNoticeTestPilot = SendCrew is op dit stuit in Test Pilot-eksperimint en falt ûnder de <a>Betingsten</a> en <a>Privacybelied</a> fan Test Pilot. Mear ynformaasje oer dit eksperimint en de gegevenssamling stiet<a>hjir</a>.
+legalNoticeMozilla = Gebrûk fan de SendCrew-website falt ek ûnder it <a>Websites Privacybelied</a> en <a>Websites Gebrûksbetingsten</a> fan Mozilla.
 deletePopupText = Dit bestân fuortsmite
 deletePopupYes = Ja
 deletePopupCancel = Annulearje
@@ -104,8 +104,8 @@ addPasswordButton = Wachtwurd tafoegje
 changePasswordButton = Wizigje
 passwordTryAgain = Net krekt wachtwurd. Probearje it opnij.
 reportIPInfringement = IP-ynbrek melde
-javascriptRequired = Firefox Send fereasket JavaScript.
-whyJavascript = Werom hat Firefox Send JavaScript nedich?
+javascriptRequired = SendCrew fereasket JavaScript.
+whyJavascript = Werom hat SendCrew JavaScript nedich?
 enableJavascript = Skeakelje JavaScript yn en probearje nochris.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }o { $minutes }m

@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = Web 实验
 siteFeedback = 反馈
 uploadPageHeader = 私密、安全的文件分享服务
@@ -51,16 +51,16 @@ unlockInputLabel = 请输入密码
 unlockInputPlaceholder = 密码
 unlockButtonLabel = 解锁
 downloadFileTitle = 下载加密的文件
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = 您的朋友使用 Firefox Send 向您发送一个文件。该服务允许用户以安全、私密、受加密的链接分享一个文件，链接到期后文件将从网上彻底抹除。
+# SendCrew is a brand name and should not be localized.
+downloadMessage = 您的朋友使用 SendCrew 向您发送一个文件。该服务允许用户以安全、私密、受加密的链接分享一个文件，链接到期后文件将从网上彻底抹除。
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = 下载
 downloadNotification = 您的下载已完成。
 downloadFinish = 下载完成
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = 尝试 Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = 尝试 SendCrew
 downloadingPageProgress = 正在下载 { $filename } ({ $size })
 downloadingPageMessage = 在我们获取您的文件并解密的期间，请不要关闭此网页。
 errorAltText = 上传出错
@@ -71,10 +71,10 @@ fileTooBig = 此文件太大。文件大小上限为 { $size }。
 linkExpiredAlt = 链接已过期
 expiredPageHeader = 此链接已过期或者从未生效。
 notSupportedHeader = 不支持您的浏览器。
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = 很可惜，您的浏览器不支持 Firefox Send 所使用的 Web 技术。请改用其他浏览器。我们推荐使用 Firefox！
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = 很可惜，您的浏览器不支持 SendCrew 所使用的 Web 技术。请改用其他浏览器。我们推荐使用 Firefox！
 notSupportedLink = 为什么不支持我的浏览器？
-notSupportedOutdatedDetail = 很可惜，此版本的 Firefox 不支持 Firefox Send 所使用的 Web 技术。您需要更新浏览器才能使用它。
+notSupportedOutdatedDetail = 很可惜，此版本的 Firefox 不支持 SendCrew 所使用的 Web 技术。您需要更新浏览器才能使用它。
 updateFirefox = 更新 Firefox
 downloadFirefoxButtonSub = 免费下载
 uploadedFile = 文件
@@ -84,8 +84,8 @@ expiryFileList = 过期时间
 deleteFileList = 删除
 nevermindButton = 没关系
 legalHeader = 条款和隐私
-legalNoticeTestPilot = Firefox Send 目前是一个 Test Pilot 实验，并遵守 Test Pilot <a>服务条款</a>和<a>隐私声明</a>。您可以在<a>这里</a>了解此实验及数据收集的有关信息。
-legalNoticeMozilla = 使用 Firefox Send 网站亦受到 Mozilla <a>网站隐私声明</a>和<a>网站使用条款</a>的约束。
+legalNoticeTestPilot = SendCrew 目前是一个 Test Pilot 实验，并遵守 Test Pilot <a>服务条款</a>和<a>隐私声明</a>。您可以在<a>这里</a>了解此实验及数据收集的有关信息。
+legalNoticeMozilla = 使用 SendCrew 网站亦受到 Mozilla <a>网站隐私声明</a>和<a>网站使用条款</a>的约束。
 deletePopupText = 删除此文件？
 deletePopupYes = 是
 deletePopupCancel = 取消
@@ -102,8 +102,8 @@ addPasswordButton = 添加密码
 changePasswordButton = 更改
 passwordTryAgain = 密码不正确。请重试。
 reportIPInfringement = 举报知识产权侵权
-javascriptRequired = Firefox Send 需要 JavaScript
-whyJavascript = 为什么 Firefox Send 需要 JavaScript？
+javascriptRequired = SendCrew 需要 JavaScript
+whyJavascript = 为什么 SendCrew 需要 JavaScript？
 enableJavascript = 请启用 JavaScript 并重试。
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }时 { $minutes }分

@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = eksperiment web
 siteFeedback = Përshtypje
 uploadPageHeader = Shkëmbim Privat, i Fshehtëzuar, Kartelash
@@ -53,16 +53,16 @@ unlockInputLabel = Jepni Fjalëkalimin
 unlockInputPlaceholder = Fjalëkalim
 unlockButtonLabel = Zhbllokoje
 downloadFileTitle = Shkarko Kartelën e Fshehtëzuar
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Shoku juaj po ju dërgon një kartelë me Firefox Send, një shërbim që ju lejon të shkëmbeni kartela përmes një lidhjeje të parrezik, private, dhe të fshehtëzuar, që skadon automatikisht, për të garantuar që gjërat tuaja të mos mbeten në internet përgjithmonë.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Shoku juaj po ju dërgon një kartelë me SendCrew, një shërbim që ju lejon të shkëmbeni kartela përmes një lidhjeje të parrezik, private, dhe të fshehtëzuar, që skadon automatikisht, për të garantuar që gjërat tuaja të mos mbeten në internet përgjithmonë.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Shkarkoje
 downloadNotification = Shkarkimi juaj u plotësua.
 downloadFinish = Shkarkim i Plotësuar
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } nga { $totalSize }) gjithsej
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Provoni Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Provoni SendCrew
 downloadingPageProgress = Po shkarkohet { $filename } ({ $size })
 downloadingPageMessage = Ju lutemi, lëreni hapur këtë skedë ndërkohë që ne sjellim dhe shfshehtëzojmë kartelën tuaj.
 errorAltText = Gabim ngarkimi
@@ -73,10 +73,10 @@ fileTooBig = Kjo kartelë është shumë e madhe për ngarkim. Do të duhej të 
 linkExpiredAlt = Lidhja skadoi
 expiredPageHeader = Kjo lidhje ka skaduar ose s’ka ekzistuar kurrë!
 notSupportedHeader = Shfletuesi juaj nuk mbulohet.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Mjerisht, ky shfletues nuk mbulon teknologjinë web mbi të cilën bazohet Firefox Send.Do t’ju duhet të provoni një shfletues tjetër. Ju këshillojmë Firefox-in!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Mjerisht, ky shfletues nuk mbulon teknologjinë web mbi të cilën bazohet SendCrew.Do t’ju duhet të provoni një shfletues tjetër. Ju këshillojmë Firefox-in!
 notSupportedLink = Pse nuk mbulohet ky shfletues?
-notSupportedOutdatedDetail = Mjerisht, ky version i Firefox-it nuk e mbulon teknologjinë web mbi të cilën bazohet Firefox Send. Do t’ju duhet të përditësoni shfletuesin tuaj.
+notSupportedOutdatedDetail = Mjerisht, ky version i Firefox-it nuk e mbulon teknologjinë web mbi të cilën bazohet SendCrew. Do t’ju duhet të përditësoni shfletuesin tuaj.
 updateFirefox = Përditësojeni Firefox-in
 downloadFirefoxButtonSub = Shkarkim Falas
 uploadedFile = Kartelë
@@ -86,8 +86,8 @@ expiryFileList = Skadon Më
 deleteFileList = Fshije
 nevermindButton = S’prish punë
 legalHeader = Kushte & Privatësi
-legalNoticeTestPilot = Firefox Send është një eksperiment Pilot Testesh dhe subjekt i <a>Kushteve të Shërbimit</a> dhe <a>Shënim Privacësie</a> për Pilot Testesh. <a>Këtu</a> mund të mësoni më tepër mbi këtë eksperiment dhe grumbullimit të të dhënave që ai kryen.
-legalNoticeMozilla = Përdorimi i sajtit Firefox Send është gjithashtu subjekt i <a>Shënimit Mbi Privatësi Sajtesh</a> të Mozilla-s dhe <a>Kushteve të Përdorimit të Sajtit</a>.
+legalNoticeTestPilot = SendCrew është një eksperiment Pilot Testesh dhe subjekt i <a>Kushteve të Shërbimit</a> dhe <a>Shënim Privacësie</a> për Pilot Testesh. <a>Këtu</a> mund të mësoni më tepër mbi këtë eksperiment dhe grumbullimit të të dhënave që ai kryen.
+legalNoticeMozilla = Përdorimi i sajtit SendCrew është gjithashtu subjekt i <a>Shënimit Mbi Privatësi Sajtesh</a> të Mozilla-s dhe <a>Kushteve të Përdorimit të Sajtit</a>.
 deletePopupText = Të fshihet kjo kartelë?
 deletePopupYes = Po
 deletePopupCancel = Anuloje
@@ -104,8 +104,8 @@ addPasswordButton = Shtoni fjalëkalim
 changePasswordButton = Ndryshoje
 passwordTryAgain = Fjalëkalim i pasaktë. Riprovoni.
 reportIPInfringement = Raportoni Cenim IP-je
-javascriptRequired = Firefox Send lyp JavaScript
-whyJavascript = Ç’i duhet Firefox Send-it JavaScript-i?
+javascriptRequired = SendCrew lyp JavaScript
+whyJavascript = Ç’i duhet SendCrew-it JavaScript-i?
 enableJavascript = Ju lutemi, aktivizoni JavaScript-in dhe riprovoni.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m

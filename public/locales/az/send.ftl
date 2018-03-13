@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = web eksperiment
 siteFeedback = Geri dönüş
 uploadPageHeader = Məxfi, Şifrələnmiş Fayl Paylaşma
@@ -53,16 +53,16 @@ unlockInputLabel = Parol daxil edin
 unlockInputPlaceholder = Parol
 unlockButtonLabel = Aç
 downloadFileTitle = Şifrələnmiş Faylı Endir
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Yoldaşınız Firefox Send ilə sizə fayl göndərir, fayllarınızı təhlükəsiz, məxfi, şifrələnmiş və daima onlayn qalmaması üçün avtomatik silən fayl göndərmə xidməti.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Yoldaşınız SendCrew ilə sizə fayl göndərir, fayllarınızı təhlükəsiz, məxfi, şifrələnmiş və daima onlayn qalmaması üçün avtomatik silən fayl göndərmə xidməti.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Endir
 downloadNotification = Endirməniz tamamlandı.
 downloadFinish = Endirmə Tamamlandı
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Firefox Send Yoxla
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = SendCrew Yoxla
 downloadingPageProgress = { $filename } faylı ({ $size }) endirilir
 downloadingPageMessage = Lütfən faylı endirib şifrəsini açarkən vərəqi açıq buraxın.
 errorAltText = Yükləmə xətası
@@ -73,10 +73,10 @@ fileTooBig = Fayl yükləmək üçün çox böyükdür. Fayl { $size }-dan az ol
 linkExpiredAlt = Keçidin vaxtı çıxıb
 expiredPageHeader = Keçidin vaxtı çıxıb və ya heç vaxt olmayıb!
 notSupportedHeader = Səyyahınız dəstəklənmir.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Heyf ki, bu səyyah Firefox Send-ə güc verən web texnologiyalarını dəstəkləmir. Fərqli bir səyyah yoxlamalısınız. Biz Firefox məsləhət görürük!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Heyf ki, bu səyyah SendCrew-ə güc verən web texnologiyalarını dəstəkləmir. Fərqli bir səyyah yoxlamalısınız. Biz Firefox məsləhət görürük!
 notSupportedLink = Səyyahım niyə dəstəklənmir?
-notSupportedOutdatedDetail = Heyf ki, Firefox səyyahının bu versiyası Firefox Send-ə güc verən web texnologiyalarını dəstəkləmir. Səyyahınızı yeniləməlisiniz.
+notSupportedOutdatedDetail = Heyf ki, Firefox səyyahının bu versiyası SendCrew-ə güc verən web texnologiyalarını dəstəkləmir. Səyyahınızı yeniləməlisiniz.
 updateFirefox = Firefox-u Yenilə
 downloadFirefoxButtonSub = Pulsuz Endir
 uploadedFile = Fayl
@@ -86,8 +86,8 @@ expiryFileList = Vaxtı çıxma tarixi
 deleteFileList = Sil
 nevermindButton = Vacib deyil
 legalHeader = Şərtlər və Məxfilik
-legalNoticeTestPilot = Firefox Send Test Pilot eksperimentidir, Test Pilot <a>Xidmət Şərtləri</a> və <a>Məxfilik Bildirişi</a>-nə tabedir. Bu eksperiment və məlumat yığma haqqında <a>buradan</a> öyrənə bilərsiz.
-legalNoticeMozilla = Firefox Send saytının istifadəsi həmçinin Mozilla-nın <a>Saytlar üçün Məxfilik Bildirişi</a> və <a>Sayt İstifadə Şərtləri</a>-nə tabedir.
+legalNoticeTestPilot = SendCrew Test Pilot eksperimentidir, Test Pilot <a>Xidmət Şərtləri</a> və <a>Məxfilik Bildirişi</a>-nə tabedir. Bu eksperiment və məlumat yığma haqqında <a>buradan</a> öyrənə bilərsiz.
+legalNoticeMozilla = SendCrew saytının istifadəsi həmçinin Mozilla-nın <a>Saytlar üçün Məxfilik Bildirişi</a> və <a>Sayt İstifadə Şərtləri</a>-nə tabedir.
 deletePopupText = Fayl silinsin?
 deletePopupYes = Bəli
 deletePopupCancel = Ləğv et
@@ -104,8 +104,8 @@ addPasswordButton = Parol əlavə et
 changePasswordButton = Dəyişdir
 passwordTryAgain = Səhv parol. Təkrar yoxlayın.
 reportIPInfringement = Əqli-mülkiyyət pozuntusu bildir
-javascriptRequired = Firefox Send üçün JavaScript lazımdır
-whyJavascript = Firefox Send niyə JavaScript tələb edir?
+javascriptRequired = SendCrew üçün JavaScript lazımdır
+whyJavascript = SendCrew niyə JavaScript tələb edir?
 enableJavascript = Lütfən JavaScript-i aktiv edib təkrar yoxlayın.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } saat { $minutes } dəq

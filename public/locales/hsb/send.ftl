@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = webeksperiment
 siteFeedback = Komentar
 uploadPageHeader = Priwatne, zaklučowane dźělenje datajow
@@ -57,16 +57,16 @@ unlockInputLabel = Hesło zapodać
 unlockInputPlaceholder = Hesło
 unlockButtonLabel = Wotewrěć
 downloadFileTitle = Zaklučowanu dataju sćahnyć
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Waš přećel wam dataju z Firefox Send sćele, słužba, kotraž wam zmóžnja, dataje přez wěsty, priwatny a zaklučowany wotkaz dźělić, kotryž awtomatisce spadnje, zo njebychu waše daty na přeco online wostawali.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Waš přećel wam dataju z SendCrew sćele, słužba, kotraž wam zmóžnja, dataje přez wěsty, priwatny a zaklučowany wotkaz dźělić, kotryž awtomatisce spadnje, zo njebychu waše daty na přeco online wostawali.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Sćahnyć
 downloadNotification = Waše sćehnjenje je dokónčene.
 downloadFinish = Sćehnjenje dokónčene
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } z { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Firefox Send wupruwować
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = SendCrew wupruwować
 downloadingPageProgress = { $filename } ({ $size }) so sćahuje
 downloadingPageMessage = Prošu wostajće tutón rajtark wočinjeny, mjeztym zo wašu dataju sćahujemy a dešifrujemy.
 errorAltText = Nahrawanski zmylk
@@ -77,10 +77,10 @@ fileTooBig = Tuta dataja je přewulka za nahraće. Měła mjeńša hač { $size 
 linkExpiredAlt = Wotkaz je spadnjeny
 expiredPageHeader = Tutón wotkaz je spadnjeny abo njeje ženje eksistował!
 notSupportedHeader = Waš wobhladowak so njepodpěruje.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Bohužel tutón wobhladowak webtechnologiju njepodpěruje, na kotrejž Firefox Send bazuje. Dyrbiće druhi wobhladowak wužiwać. My Firefox doporučemy!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Bohužel tutón wobhladowak webtechnologiju njepodpěruje, na kotrejž SendCrew bazuje. Dyrbiće druhi wobhladowak wužiwać. My Firefox doporučemy!
 notSupportedLink = Čehodla so mój wobhladowak njepodpěruje?
-notSupportedOutdatedDetail = Bohužel tuta wersija Firefox webtechnologiju njepodpěruje, na kotrejž Firefox Send bazuje. Dyrbiće swój wobhladowak aktualizować.
+notSupportedOutdatedDetail = Bohužel tuta wersija Firefox webtechnologiju njepodpěruje, na kotrejž SendCrew bazuje. Dyrbiće swój wobhladowak aktualizować.
 updateFirefox = Firefox aktualizować
 downloadFirefoxButtonSub = Darmotne sćehnjenje
 uploadedFile = Dataja
@@ -91,7 +91,7 @@ deleteFileList = Zhašeć
 nevermindButton = Wšojedne
 legalHeader = Wuměnjenja a priwatnosć
 legalNoticeTestPilot = Firefox je tuchwilu eksperiment Test Pilot, a podleži <a>wužiwanskim wuměnjenjam</a> a <a>pokazce priwatnosće</a> Test Pilot. Wjace wo tutym eksperimenće a daty, kotrež hromadźi, <a>tu</a> zhoniće.
-legalNoticeMozilla = Tež wužiwanje websydła Firefox Send <a>pokazce priwatnosće za websydła</a> a <a>wužiwanskim wuměnjenjam za websydła</a> Mozilla podleži.
+legalNoticeMozilla = Tež wužiwanje websydła SendCrew <a>pokazce priwatnosće za websydła</a> a <a>wužiwanskim wuměnjenjam za websydła</a> Mozilla podleži.
 deletePopupText = Tutu dataju zhašeć?
 deletePopupYes = Haj
 deletePopupCancel = Přetorhnyć
@@ -108,8 +108,8 @@ addPasswordButton = Hesło přidać
 changePasswordButton = Změnić
 passwordTryAgain = Wopačne hesło. Prošu spytajće hišće raz.
 reportIPInfringement = Zranjenje IP zdźělić
-javascriptRequired = Firefox Send JavaScript trjeba
-whyJavascript = Čehodla Firefox Send JavaScript trjeba?
+javascriptRequired = SendCrew JavaScript trjeba
+whyJavascript = Čehodla SendCrew JavaScript trjeba?
 enableJavascript = Prošu zmóžńće JavaScript a spytajće hišće raz.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } hodź. { $minutes } mjeń.

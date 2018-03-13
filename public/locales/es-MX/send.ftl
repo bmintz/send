@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = experimento web
 siteFeedback = Comentario
 uploadPageHeader = Compartir archivos encriptados y privados
@@ -52,16 +52,16 @@ unlockInputLabel = Ingresar contraseña
 unlockInputPlaceholder = Contraseña
 unlockButtonLabel = Desbloquear
 downloadFileTitle = Descargar archivo encriptado
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Tu amigo te está enviando un archivo a través de Firefox Send, un servicio que te permite compartir archivos con un enlace seguro, privado y encriptado que caduca automáticamente para que tus cosas no sean accesibles en línea de por vida.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Tu amigo te está enviando un archivo a través de SendCrew, un servicio que te permite compartir archivos con un enlace seguro, privado y encriptado que caduca automáticamente para que tus cosas no sean accesibles en línea de por vida.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Descargar
 downloadNotification = Tu descarga se ha completado
 downloadFinish = Descarga completa
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } de { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Prueba Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Prueba SendCrew
 downloadingPageProgress = Descargando { $filename } ({ $size })
 downloadingPageMessage = Deja esta pestaña abierta mientras buscamos tu archivo y lo desencriptamos.
 errorAltText = Error en la subida
@@ -72,10 +72,10 @@ fileTooBig = Ese archivo es muy grande. Debería ocupar menos de { $size }.
 linkExpiredAlt = Enlace caducado
 expiredPageHeader = ¡Este enlace ha caducado o nunca existió en primer lugar!
 notSupportedHeader = Tu navegador no está soportado.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Lamentablemente, este navegador no admite la tecnología web que necesita Firefox Send. Tendrás que probar otro navegador. ¡Te recomendamos Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Lamentablemente, este navegador no admite la tecnología web que necesita SendCrew. Tendrás que probar otro navegador. ¡Te recomendamos Firefox!
 notSupportedLink = ¿Por qué mi navegador no tiene soporte?
-notSupportedOutdatedDetail = Lamentablemente esta versión de Firefox no soporta la tecnología web que potencia a Firefox Send. Deberás actualizar tu navegador.
+notSupportedOutdatedDetail = Lamentablemente esta versión de Firefox no soporta la tecnología web que potencia a SendCrew. Deberás actualizar tu navegador.
 updateFirefox = Actualizar Firefox
 downloadFirefoxButtonSub = Descarga gratuita
 uploadedFile = Archivo
@@ -85,8 +85,8 @@ expiryFileList = Caduca en
 deleteFileList = Eliminar
 nevermindButton = Da igual
 legalHeader = Términos y privacidad
-legalNoticeTestPilot = Firefox Send sigue siendo un experimento de Test Pilot y está sujeto a las <a>Condiciones del servicio</a> y al <a>Aviso de privacidad</a> de Test Pilot. Puedes saber más acerca de este experimento y si recolección de datos <a>aquí</a>.
-legalNoticeMozilla = El uso de la página de Firefox Send también está sujeto al <a>Aviso de privacidad sobre sitios web</a> y a los <a>Términos de uso sobre sitios web</a>.
+legalNoticeTestPilot = SendCrew sigue siendo un experimento de Test Pilot y está sujeto a las <a>Condiciones del servicio</a> y al <a>Aviso de privacidad</a> de Test Pilot. Puedes saber más acerca de este experimento y si recolección de datos <a>aquí</a>.
+legalNoticeMozilla = El uso de la página de SendCrew también está sujeto al <a>Aviso de privacidad sobre sitios web</a> y a los <a>Términos de uso sobre sitios web</a>.
 deletePopupText = ¿Eliminar este archivo?
 deletePopupYes = Sí
 deletePopupCancel = Cancelar
@@ -105,8 +105,8 @@ passwordTryAgain = Contraseña incorrecta. Intenta de nuevo.
 # This label is followed by the password needed to download a file
 passwordResult = Contraseña: { $password }
 reportIPInfringement = Denunciar una infracción de PI
-javascriptRequired = Firefox Send requiere JavaScript
-whyJavascript = ¿Por qué Firefox Send requiere JavaScript?
+javascriptRequired = SendCrew requiere JavaScript
+whyJavascript = ¿Por qué SendCrew requiere JavaScript?
 enableJavascript = Por favor, habilita JavaScript e intenta de nuevo.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m

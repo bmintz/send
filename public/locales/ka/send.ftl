@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = საცდელი
 siteFeedback = გამოხმაურება
 uploadPageHeader = ფაილების უსაფრთხო, დაშიფრული გაზიარება
@@ -51,16 +51,16 @@ unlockInputLabel = შეიყვანეთ პაროლი
 unlockInputPlaceholder = პაროლი
 unlockButtonLabel = გახსნა
 downloadFileTitle = დაშიფრული ფაილის ჩამოტვირთვა
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = თქვენი მეგობარი გიგზავნით ფაილს Firefox Send მომსახურების მეშვეობით, რომლითაც შეგიძლიათ ფაილების უსაფრთხოდ, დაფარულად და დაშიფრულად გაზიარება ბმულის საშუალებით, წინასწარ განსაზღვრული ვადით, რაც საწინდარია იმის, რომ თქვენი კუთვნილი მასალა, არ დარჩება ინტერნეტში სამუდამოდ.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = თქვენი მეგობარი გიგზავნით ფაილს SendCrew მომსახურების მეშვეობით, რომლითაც შეგიძლიათ ფაილების უსაფრთხოდ, დაფარულად და დაშიფრულად გაზიარება ბმულის საშუალებით, წინასწარ განსაზღვრული ვადით, რაც საწინდარია იმის, რომ თქვენი კუთვნილი მასალა, არ დარჩება ინტერნეტში სამუდამოდ.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = ჩამოტვირთვა
 downloadNotification = თქვენი ჩამოტვირთვა დასრულებულია.
 downloadFinish = ჩამოტვირთვა დასრულდა
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } { $totalSize }-იდან)
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = გამოცადეთ Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = გამოცადეთ SendCrew
 downloadingPageProgress = მიმდინარეობს ჩამოტვირთვა { $filename } ({ $size })
 downloadingPageMessage = გთხოვთ დატოვოთ ეს ჩანართი გახსნილი, სანამ ფაილი ჩამოიტვირთება და გაიშიფრება.
 errorAltText = შეცდომა ატვირთვისას
@@ -71,10 +71,10 @@ fileTooBig = ფაილი ზედმეტად დიდია. უნდ
 linkExpiredAlt = ბმული ვადაგასულია
 expiredPageHeader = ბმული ან ვადაგასულია, ან არ არსებობს!
 notSupportedHeader = თქვენი ბრაუზერი არაა მხარდაჭერილი.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = სამწუხაროდ, ამ ბრაუზერს არ გააჩნია ის ტექნოლოგია, რომელიც აუცილებელია Firefox Send-ის მუშაობისთვის. გესაჭიროებათ სხვა ბრაუზერი. ჩვენ შეგვიძლია გირჩიოთ Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = სამწუხაროდ, ამ ბრაუზერს არ გააჩნია ის ტექნოლოგია, რომელიც აუცილებელია SendCrew-ის მუშაობისთვის. გესაჭიროებათ სხვა ბრაუზერი. ჩვენ შეგვიძლია გირჩიოთ Firefox!
 notSupportedLink = რატომ არაა ჩემი ბრაუზერი მხარდაჭერილი?
-notSupportedOutdatedDetail = სამწუხაროდ, Firefox-ის ამ ვერსიას არ გააჩნია ის ტექნოლოგია, რომელიც აუცილებელია Firefox Send-ის მუშაობისთვის. გესაჭიროებათ, ბრაუზერის განახლება.
+notSupportedOutdatedDetail = სამწუხაროდ, Firefox-ის ამ ვერსიას არ გააჩნია ის ტექნოლოგია, რომელიც აუცილებელია SendCrew-ის მუშაობისთვის. გესაჭიროებათ, ბრაუზერის განახლება.
 updateFirefox = Firefox-ის განახლება
 downloadFirefoxButtonSub = უფასო ჩამოტვირთვა
 uploadedFile = ფაილი
@@ -84,8 +84,8 @@ expiryFileList = ვადის გასვლის დრო
 deleteFileList = წაშლა
 nevermindButton = არ აქვს მნიშვნელობა
 legalHeader = პირობები და პირადულობა
-legalNoticeTestPilot = Firefox Send ამჟამად Test Pilot-ის საცდელი პროექტია და ექვემდებარება Test Pilot-ის <a>მომსახურების პირობებსა</a> და <a>პირადი მონაცემების დაცვის დებულებას</a>. ვრცლად, ამ საცდელი პროექტისა და მონაცემების აღრიცხვის შესახებ, შეგიძლიათ იხილოთ <a>აქ</a>.
-legalNoticeMozilla = Firefox Send ვებსაიტი, ასევე ექვემდებარება Mozilla-ს <a>ვებსაიტების პირადი მონაცემების შესახებ დებულებას</a> და <a>ვებსაიტების გამოყენების პირობებს</a>.
+legalNoticeTestPilot = SendCrew ამჟამად Test Pilot-ის საცდელი პროექტია და ექვემდებარება Test Pilot-ის <a>მომსახურების პირობებსა</a> და <a>პირადი მონაცემების დაცვის დებულებას</a>. ვრცლად, ამ საცდელი პროექტისა და მონაცემების აღრიცხვის შესახებ, შეგიძლიათ იხილოთ <a>აქ</a>.
+legalNoticeMozilla = SendCrew ვებსაიტი, ასევე ექვემდებარება Mozilla-ს <a>ვებსაიტების პირადი მონაცემების შესახებ დებულებას</a> და <a>ვებსაიტების გამოყენების პირობებს</a>.
 deletePopupText = გსურთ ამ ფაილის წაშლა?
 deletePopupYes = დიახ
 deletePopupCancel = გაუქმება
@@ -102,8 +102,8 @@ addPasswordButton = პაროლის დამატება
 changePasswordButton = შეცვლა
 passwordTryAgain = პაროლი არასწორია. სცადეთ ხელახლა.
 reportIPInfringement = მოხსენება დარღვევაზე
-javascriptRequired = Firefox Send საჭიროებს JavaScript-ს
-whyJavascript = რატომ საჭიროებს Firefox Send JavaScript-ს?
+javascriptRequired = SendCrew საჭიროებს JavaScript-ს
+whyJavascript = რატომ საჭიროებს SendCrew JavaScript-ს?
 enableJavascript = გთხოვთ ჩართოთ JavaScript და სცადოთ ხელახლა.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }სთ { $minutes }წთ
