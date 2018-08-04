@@ -1,7 +1,7 @@
 {
   "name": "firefox-send",
   "description": "File Sharing Experiment",
-  "version": "2.5.1",
+  "version": "2.5.4",
   "author": "Mozilla (https://mozilla.org)",
   "repository": "mozilla/send",
   "homepage": "https://github.com/mozilla/send/",
@@ -28,6 +28,8 @@
     "test": "npm-run-all test:*",
     "test:backend": "nyc mocha --reporter=min test/backend",
     "test:frontend": "cross-env NODE_ENV=development node test/frontend/runner.js && nyc report --reporter=html",
+    "test-integration": "docker-compose up --abort-on-container-exit --exit-code-from integration-tests --build --remove-orphans --quiet-pull && docker-compose down",
+    "test-integration-stage": "cross-env BASE_URL=https://send.stage.mozaws.net npm run test-integration",
     "start": "npm run clean && cross-env NODE_ENV=development webpack-dev-server",
     "prod": "node server/prod.js"
   },
@@ -114,7 +116,7 @@
     "webpack-unassert-loader": "^1.2.0"
   },
   "dependencies": {
-    "aws-sdk": "^2.206.0",
+    "aws-sdk": "^2.251.1",
     "babel-polyfill": "^6.26.0",
     "choo": "^6.10.0",
     "cldr-core": "^32.0.0",
@@ -139,6 +141,7 @@
     "cak",
     "cs",
     "cy",
+    "da",
     "de",
     "dsb",
     "el",
@@ -172,6 +175,7 @@
     "sq",
     "sr",
     "sv-SE",
+    "te",
     "tl",
     "tr",
     "uk",

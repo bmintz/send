@@ -6,3 +6,5 @@ dist
 .idea
 .DS_Store
 .nyc_output
+.tox
+.pytest_cache

@@ -26,11 +26,15 @@ uploadSuccessConfirmHeader = آماده برای ارسال
 uploadSvgAlt = بارگذاری
 uploadSuccessTimingHeader = پیوند به پرونده شما بعد از ۱ بار دانلود یا ۲۴ ساعت حذف خواهد شد.
 expireInfo = این پیوند به فایل شما پس از { $downloadCount } یا { $timespan } منقضی خواهد شد.
-downloadCount = { $num ->
-       *[other] ۱ بارگذاری
+downloadCount =
+    { $num ->
+        [one] ۱ بارگیری
+       *[other] { $num } بارگیری
     }
-timespanHours = { $num ->
-       *[other] ۱ ساعت
+timespanHours =
+    { $num ->
+        [one] ۱ ساعت
+       *[other] { $num } ساعت
     }
 copyUrlFormLabelWithName = برای ارسال پرونده پیوند آن را رونوشت و به اشتراک بگذارید: { $filename }
 copyUrlFormButton = رونوشت به کلیپ‌بورد
@@ -102,8 +106,13 @@ addPasswordButton = افزودن گذرواژه
 changePasswordButton = تغییر
 passwordTryAgain = کلمه عبور اشتباه است. مجدد تلاش کنید.
 reportIPInfringement = گزارش تخلف IP
+<<<<<<< HEAD
 javascriptRequired = SendCrew نیازمند جاوااسکریپت است
 whyJavascript = چراSendCrew جاوااسکریپت لازم دارد؟
+=======
+javascriptRequired = Firefox Send نیازمند جاوااسکریپت است
+whyJavascript = چرا Firefox Send جاوااسکریپت لازم داد؟
+>>>>>>> upstream/master
 enableJavascript = لطفا جاوااسکریپت را فعال کنید و مجددا تلاش کنید.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ساعت { $minutes }دقیقه

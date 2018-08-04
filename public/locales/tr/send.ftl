@@ -27,8 +27,10 @@ uploadSvgAlt = Yükle
 uploadSuccessTimingHeader = Dosyanız 1 kez indirildikten veya 24 saat geçtikten sonra linkiniz geçersiz olacaktır.
 expireInfo = Dosyanızın bağlantısı { $downloadCount } sonra veya { $timespan } zaman aşımına uğrayacaktır.
 downloadCount = { $num } indirme
-timespanHours = { $num ->
-       *[one] { $num } saat
+timespanHours =
+    { $num ->
+        [one] 1 saat
+       *[other] { $num } saat
     }
 copyUrlFormLabelWithName = { $filename } dosyanızı başkasına göndermek için aşağıdaki linki kopyalayın.
 copyUrlFormButton = Panoya kopyala
@@ -82,8 +84,13 @@ expiryFileList = Bitiş süresi
 deleteFileList = Sil
 nevermindButton = Boş ver
 legalHeader = Şart ve Koşullar
+<<<<<<< HEAD
 legalNoticeTestPilot = SendCrew bir Test Pilotu deneyidir ve  Test Pilotu <a>Hizmet Koşulları</a> ile <a>Gizlilik Bildirimi</a>’ne tabidir. Bu deney ve topladığı veriler hakkında daha fazla bilgi almak isterseniz <a>buraya</a> bakabilirsiniz.
 legalNoticeMozilla = SendCrew’i kullanmak Mozilla’nın <a>Web Siteleri Gizlilik Bildirimi</a> ve <a>Web Siteleri Kullanım Koşulları</a>’na da tabidir.
+=======
+legalNoticeTestPilot = Firefox Send bir Test Pilotu deneyidir ve Test Pilotu <a>Hizmet Koşulları</a> ile <a>Gizlilik Bildirimi</a>’ne tabidir. Bu deney ve topladığı veriler hakkında daha fazla bilgi almak isterseniz <a>buraya</a> bakabilirsiniz.
+legalNoticeMozilla = Firefox Send’i kullanmak Mozilla’nın <a>Web Siteleri Gizlilik Bildirimi</a> ve <a>Web Siteleri Kullanım Koşulları</a>’na da tabidir.
+>>>>>>> upstream/master
 deletePopupText = Bu dosya silinsin mi?
 deletePopupYes = Evet
 deletePopupCancel = Vazgeç

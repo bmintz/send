@@ -20,17 +20,19 @@ notifyUploadDone = Ihr Upload ist abgeschlossen.
 uploadingPageMessage = Sobald Ihre Datei hochgeladen wird, können Sie die Optionen zum Ablaufdatum auswählen.
 uploadingPageCancel = Hochladen abbrechen
 uploadCancelNotification = Ihr Upload wurde abgebrochen.
-uploadingPageLargeFileMessage = Diese Datei ist groß, sodass das hochladen einige Zeit dauern könnte. Haben Sie Geduld!
+uploadingPageLargeFileMessage = Diese Datei ist groß, sodass das Hochladen einige Zeit dauern könnte. Haben Sie Geduld!
 uploadingFileNotification = Mich benachrichtigen, wenn der Upload abgeschlossen ist.
 uploadSuccessConfirmHeader = Bereit zum Senden
 uploadSvgAlt = Hochladen
 uploadSuccessTimingHeader = Der Link zu Ihrer Datei läuft nach einem Download oder in 24 Stunden ab.
 expireInfo = Der Link zu Ihrer Datei läuft nach { $downloadCount } oder { $timespan } ab.
-downloadCount = { $num ->
+downloadCount =
+    { $num ->
         [one] einem Download
        *[other] { $num } Downloads
     }
-timespanHours = { $num ->
+timespanHours =
+    { $num ->
         [one] einer Stunde
        *[other] { $num } Stunden
     }
@@ -86,8 +88,13 @@ expiryFileList = Läuft ab in
 deleteFileList = Löschen
 nevermindButton = Egal
 legalHeader = Nutzungsbedingungen und Datenschutz
+<<<<<<< HEAD
 legalNoticeTestPilot = SendCrew ist aktuell ein Test-Pilot-Experiment und unterliegt den <a>Nutzungsbedingungen</a> und dem <a>Datenschutzhinweis</a> von Test Pilot. Mehr über diese Experiment und die Daten, die es sammelt, erfahren Sie <a>hier</a>.
 legalNoticeMozilla = Die Nutzung der Website von SendCrew unterliegt außerdem Mozillas <a>Datenschutzhinweis für Websites</a> und <a>Nutzungsbedingungen für Websites</a>.
+=======
+legalNoticeTestPilot = Firefox Send ist aktuell ein Test-Pilot-Experiment und unterliegt den <a>Nutzungsbedingungen</a> und dem <a>Datenschutzhinweis</a> von Test Pilot. Mehr über dieses Experiment und die Daten, die es sammelt, erfahren Sie <a>hier</a>.
+legalNoticeMozilla = Die Nutzung der Website von Firefox Send unterliegt außerdem Mozillas <a>Datenschutzhinweis für Websites</a> und <a>Nutzungsbedingungen für Websites</a>.
+>>>>>>> upstream/master
 deletePopupText = Diese Datei löschen?
 deletePopupYes = Ja
 deletePopupCancel = Abbrechen
@@ -104,9 +111,15 @@ addPasswordButton = Passwort hinzufügen
 changePasswordButton = Ändern
 passwordTryAgain = Falsches Passwort. Versuchen Sie es erneut.
 reportIPInfringement = IP-Verletzung melden
+<<<<<<< HEAD
 javascriptRequired = SendCrew benötigt JavaScript
 whyJavascript = Warum benötigt SendCrew JavaScript?
 enableJavascript = Bitte akivieren Sie JavaScript und versuchen Sie es erneut.
+=======
+javascriptRequired = Firefox Send benötigt JavaScript
+whyJavascript = Warum benötigt Firefox Send JavaScript?
+enableJavascript = Bitte aktivieren Sie JavaScript und versuchen Sie es erneut.
+>>>>>>> upstream/master
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
 # A short representation of a countdown timer containing the number of minutes remaining as digits, example "56m"

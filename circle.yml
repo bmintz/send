@@ -16,7 +16,7 @@ jobs:
       - persist_to_workspace:
           root: .
           paths:
-            - ./*
+            - ./dist
   test:
     docker:
       - image: circleci/node:8-browsers
@@ -31,12 +31,29 @@ jobs:
             - node_modules
       - run: npm run check
       - run: npm run lint
-      - run: npm test
+      - run: npm run test
       - store_artifacts:
           path: coverage
+  integration_tests:
+    machine: true
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - run:
+          name: Install Docker Compose
+          command: |
+            set -x
+            pip install docker-compose>=1.18
+            docker-compose --version
+      - run:
+          command: npm run test-integration
+      - store_artifacts:
+          path: coverage/send-test.html
   deploy_dev:
     machine: true
     steps:
+      - checkout
       - attach_workspace:
           at: .
       - run: docker login -u $DOCKER_USER -p $DOCKER_PASS
@@ -45,6 +62,7 @@ jobs:
   deploy_stage:
     machine: true
     steps:
+      - checkout
       - attach_workspace:
           at: .
       - run: docker login -u $DOCKER_USER -p $DOCKER_PASS
@@ -54,10 +72,20 @@ workflows:
   version: 2
   test_pr:
     jobs:
+      - build:
+          filters:
+            branches:
+              ignore: master
       - test:
           filters:
             branches:
               ignore: master
+      - integration_tests:
+          filters:
+            branches:
+              ignore: master
+          requires:
+            - build
   build_and_deploy_dev:
     jobs:
       - build:
@@ -88,10 +116,19 @@ workflows:
               ignore: /.*/
             tags:
               only: /^v.*/
+      - integration_tests:
+          requires:
+            - build
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v.*/
       - deploy_stage:
           requires:
             - build
             - test
+            - integration_tests
           filters:
             branches:
               ignore: /.*/

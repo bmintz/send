@@ -4,6 +4,7 @@ import app from './routes';
 import locale from '../common/locales';
 import fileManager from './fileManager';
 import dragManager from './dragManager';
+import pasteManager from './pasteManager';
 import { canHasSend } from './utils';
 import storage from './storage';
 import Raven from 'raven-js';
@@ -44,5 +45,6 @@ app.use((state, emitter) => {
 
 app.use(fileManager);
 app.use(dragManager);
+app.use(pasteManager);
 
 app.mount('body');

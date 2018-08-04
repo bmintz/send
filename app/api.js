@@ -160,6 +160,7 @@ function download(id, keychain, onprogress, canceller) {
         resolve(this.result);
       };
     });
+
     xhr.addEventListener('progress', function(event) {
       if (event.lengthComputable && event.target.status === 200) {
         onprogress([event.loaded, event.total]);
@@ -170,6 +171,7 @@ function download(id, keychain, onprogress, canceller) {
     xhr.setRequestHeader('Authorization', auth);
     xhr.responseType = 'blob';
     xhr.send();
+    onprogress([0, 1]);
   });
 }
 

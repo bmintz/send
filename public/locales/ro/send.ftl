@@ -3,11 +3,11 @@ title = SendCrew
 siteSubtitle = un experiment web
 siteFeedback = Feedback
 uploadPageHeader = Partajare de fișiere privată și criptată
-uploadPageExplainer = Trimite fișiere printr-un link sigur, privat și criptat care expiră automat pentru ca informațiile să rămână în siguranță.
+uploadPageExplainer = Trimite fișiere printr-un link sigur, privat și criptat care expiră automat pentru a te asigura că lucrurile tale nu rămân online pentru totdeauna.
 uploadPageLearnMore = Află mai multe
-uploadPageDropMessage = Aruncă fișierul aici pentru a începe încărcarea.
+uploadPageDropMessage = Trage fișierul aici pentru a începe încărcarea
 uploadPageSizeMessage = Pentru a lucra mai ușor, recomandăm să păstrezi fișierul sub 1GB
-uploadPageBrowseButton = Alege un fișier din calculator.
+uploadPageBrowseButton = Selectează un fișier din calculator
 uploadPageBrowseButton1 = Selectează un fișier pentru încărcare
 uploadPageMultipleFilesAlert = Încărcarea mai multor fișiere deodată sau a dosarelor nu este suportată.
 uploadPageBrowseButtonTitle = Încarcă fișier
@@ -17,25 +17,28 @@ verifyingFile = Se verifică...
 encryptingFile = Se criptează…
 decryptingFile = Se decriptează…
 notifyUploadDone = Încărcarea s-a finalizat.
+uploadingPageMessage = După ce fișierul tău este încărcat vei putea seta opțiuni de expirare.
 uploadingPageCancel = Anulează încărcarea
 uploadCancelNotification = Încărcarea a fost anulată.
 uploadingPageLargeFileMessage = Stai calm! Acest fișier este mare. S-ar putea să dureze un timp încărcarea.
 uploadingFileNotification = Notifică-mă când încărcarea este încheiată.
 uploadSuccessConfirmHeader = Pregătit pentru trimitere
 uploadSvgAlt = Încarcă
-uploadSuccessTimingHeader = Linkul către fișierul tău va expira după 1 descărcare sau în 24 de ore.
-expireInfo = Linkul la fișier va expira după { $downloadCount } sau { $timespan }.
-downloadCount = { $num ->
+uploadSuccessTimingHeader = Linkul către fișier va expira după 1 descărcare sau în 24 de ore.
+expireInfo = Linkul către fișier va expira după { $downloadCount } sau { $timespan }.
+downloadCount =
+    { $num ->
         [one] 1 descărcare
         [few] { $num } descărcări
        *[other] { $num } de descărcări
     }
-timespanHours = { $num ->
+timespanHours =
+    { $num ->
         [one] 1 oră
-        [few] ore
-       *[other] de ore
+        [few] { $num } ore
+       *[other] { $num } de ore
     }
-copyUrlFormLabelWithName = Copiază și împărtășește linkul de la fișierul de trimis: { $filename }
+copyUrlFormLabelWithName = Copiază și împărtășește linkul pentru a trimite fișierul: { $filename }
 copyUrlFormButton = Copiază în clipboard
 copiedUrl = Copiat!
 deleteFileButton = Șterge fișierul
@@ -54,8 +57,13 @@ unlockInputLabel = Introdu parola
 unlockInputPlaceholder = Parolă
 unlockButtonLabel = Deblochează
 downloadFileTitle = Descarcă fișierul criptat
+<<<<<<< HEAD
 # SendCrew is a brand name and should not be localized.
 downloadMessage = Un prieten îți trimite un fișier prin SendCrew, un serviciu care îți permite să împărtășești un fișier printr-un link sigur, privat și criptat care expiră automat pentru a păstra informațiile tale online doar temporar.
+=======
+# Firefox Send is a brand name and should not be localized.
+downloadMessage = Un prieten îți trimite un fișier prin Firefox Send, un serviciu care îți permite să împărtășești un fișier printr-un link sigur, privat și criptat care expiră automat pentru a te asigura că lucrurile tale nu rămân online pentru totdeauna.
+>>>>>>> upstream/master
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Descarcă
 downloadNotification = Descărcarea s-a încheiat.
@@ -70,14 +78,19 @@ errorAltText = Eroare la încărcare
 errorPageHeader = Ceva a mers prost!
 errorPageMessage = A apărut o eroare la încărcarea fișierului.
 errorPageLink = Trimite un alt fișier
-fileTooBig = Acest fișier este prea mare. Trebuie să fie sub { $size }.
+fileTooBig = Acest fișier este prea mare. Ar trebuie să fie sub { $size }.
 linkExpiredAlt = Link expirat
 expiredPageHeader = Acest link a expirat sau nu a existat de la bun început!
 notSupportedHeader = Browserul tău nu este suportat.
+<<<<<<< HEAD
 # SendCrew is a brand name and should not be localized.
 notSupportedDetail = Din păcate acest browser nu suportă tehnologii web precum SendCrew. Trebuie să încerci alt browser. Îți recomandăm Firefox!
+=======
+# Firefox Send is a brand name and should not be localized.
+notSupportedDetail = Din păcate, acest browser nu suportă tehnologiile web folosite de Firefox Send. Va trebui să încerci un alt browser. Îți recomandăm Firefox!
+>>>>>>> upstream/master
 notSupportedLink = De ce browserul meu nu este suportat?
-notSupportedOutdatedDetail = Din păcate această versiune de Firefox nu suportă tehnologiile web din spatele Firefox Sent. Îți recomandăm să actualizezi browserul.
+notSupportedOutdatedDetail = Din păcate această versiune de Firefox nu suportă tehnologiile web din spatele Firefox Sent. Va trebui să actualizezi browserul.
 updateFirefox = Actualizează Firefox
 downloadFirefoxButtonSub = Descărcare gratuită
 uploadedFile = Fișier
@@ -87,8 +100,13 @@ expiryFileList = Expiră în
 deleteFileList = Șterge
 nevermindButton = Uită
 legalHeader = Termeni de utilizare și politica de confidențialitate
+<<<<<<< HEAD
 legalNoticeTestPilot = SendCrew este momentan un experiment Test Pilot și supus <a>Termenilor de utilizare</a> Test Pilot și a <a>Politicii de confidențialitate</a>. Poți afla mai multe despre acest experiment <a>aici</a>.
 legalNoticeMozilla = Folosirea site-ului SendCrew mai este supusă <a>Politicii de confidențialitate pentru site-uri web</a> și a <a>Termenilor de folosire a site-urilor web</a>.
+=======
+legalNoticeTestPilot = Firefox Send este în prezent un experiment Test Pilot și supus <a>Termenilor de utilizare a serviciului</a> și a <a>Politicii de confidențialitate</a> Test Pilot. Poți afla mai multe despre acest experiment și colectarea sa de date <a>aici</a>.
+legalNoticeMozilla = Folosirea site-ului Firefox Send mai este supusă <a>Politicii de confidențialitate pentru site-uri web</a> și a <a>Termenilor de utilizare a site-urilor web</a>.
+>>>>>>> upstream/master
 deletePopupText = Ștergi aceast fișier?
 deletePopupYes = Da
 deletePopupCancel = Renunță
@@ -105,3 +123,16 @@ addPasswordButton = Adaugă parolă
 changePasswordButton = Modifică
 passwordTryAgain = Parola este incorectă. Încearcă din nou.
 reportIPInfringement = Raportează încălcarea proprietății intelectuale
+javascriptRequired = Firefox Send are nevoie de JavaScript
+whyJavascript = De ce are nevoie Firefox Send de JavaScript?
+enableJavascript = Te rugăm să reactivezi JavaScript și să încerci din nou.
+# A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
+expiresHoursMinutes = { $hours }h { $minutes }m
+# A short representation of a countdown timer containing the number of minutes remaining as digits, example "56m"
+expiresMinutes = { $minutes } m
+# A short status message shown when a password is successfully set
+passwordIsSet = Parola a fost setată
+# A short status message shown when the user enters a long password
+maxPasswordLength = Lungime minimă a parolei: { $length }
+# A short status message shown when there was an error setting the password
+passwordSetError = Această parolă nu a putut fi setată

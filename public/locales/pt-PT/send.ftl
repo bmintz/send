@@ -8,7 +8,7 @@ uploadPageLearnMore = Saber mais
 uploadPageDropMessage = Largue o seu ficheiro aqui para começar a carregar
 uploadPageSizeMessage = Para uma operação mais confiável, é melhor manter o seu ficheiro abaixo de 1GB
 uploadPageBrowseButton = Selecionar um ficheiro no seu computador
-uploadPageBrowseButton1 = Selecione um ficheiro a enviar
+uploadPageBrowseButton1 = Selecionar um ficheiro a carregar
 uploadPageMultipleFilesAlert = Carregar múltiplos ficheiros ou uma pasta não é atualmente suportado.
 uploadPageBrowseButtonTitle = Carregar ficheiro
 uploadingPageProgress = A carregar { $filename } ({ $size })
@@ -21,12 +21,13 @@ uploadingPageMessage = Assim que o seu ficheiro carregar irá poder definir as o
 uploadingPageCancel = Cancelar carregamento
 uploadCancelNotification = O seu carregamento foi cancelado.
 uploadingPageLargeFileMessage = Este ficheiro é grande e pode demorar um pouco a carregar. Fique onde está!
-uploadingFileNotification = Notificar-me quando o carregamento estiver completo.
+uploadingFileNotification = Notificar-me quando o carregamento estiver concluído.
 uploadSuccessConfirmHeader = Pronto para enviar
 uploadSvgAlt = Carregar
 uploadSuccessTimingHeader = A ligação para o seu ficheiro irá expirar depois de 1 transferência ou em 24 horas.
-expireInfo = A ligação para o seu ficheiro irá expirar depois de { $downloadCount } or { $timespan }.
-downloadCount = { $num ->
+expireInfo = A ligação para o seu ficheiro irá expirar depois de { $downloadCount } ou { $timespan }.
+downloadCount =
+    { $num ->
         [one] 1 transferência
        *[other] { $num } transferências
     }
@@ -50,8 +51,13 @@ unlockInputLabel = Digitar palavra-passe
 unlockInputPlaceholder = Palavra-passe
 unlockButtonLabel = Desbloquear
 downloadFileTitle = Transferir ficheiro encriptado
+<<<<<<< HEAD
 # SendCrew is a brand name and should not be localized.
 downloadMessage = O seu amigo está a enviar-lhe um ficheiro com o SendCrew, um serviço que lhe permite partilhar ficheiro com uma ligação segura, privada e encriptada que expira automaticamente para garantir que as suas coisas não fiquem online para sempre.
+=======
+# Firefox Send is a brand name and should not be localized.
+downloadMessage = O seu amigo está a enviar-lhe um ficheiro com o Firefox Send, um serviço que lhe permite partilhar ficheiros com uma ligação segura, privada e encriptada que expira automaticamente para garantir que as suas coisas não fiquem online para sempre.
+>>>>>>> upstream/master
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Transferir
 downloadNotification = A sua transferência foi concluída.

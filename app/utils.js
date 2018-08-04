@@ -57,6 +57,7 @@ async function canHasSend() {
     );
     return true;
   } catch (err) {
+    console.error(err);
     return false;
   }
 }

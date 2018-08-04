@@ -26,10 +26,14 @@ uploadSuccessConfirmHeader = მზადაა გასაგზავნა�
 uploadSvgAlt = ატვირთვა
 uploadSuccessTimingHeader = ფაილს ვადა გაუვა 1 ჩამოტვირთვის, ან 24 საათის მერე.
 expireInfo = ფაილის ბმულს, ვადა გაუვა { $downloadCount }, ან { $timespan } მერე.
-downloadCount = { $num ->
+downloadCount =
+    { $num ->
+        [one] 1 ჩამოტვირთვა
        *[other] { $num } ჩამოტვირთვა
     }
-timespanHours = { $num ->
+timespanHours =
+    { $num ->
+        [one] 1 საათი
        *[other] { $num } საათი
     }
 copyUrlFormLabelWithName = დააკოპირეთ და გააზიარეთ ბმული, ფაილის გასაგზავნად: { $filename }
@@ -84,9 +88,15 @@ expiryFileList = ვადის გასვლის დრო
 deleteFileList = წაშლა
 nevermindButton = არ აქვს მნიშვნელობა
 legalHeader = პირობები და პირადულობა
+<<<<<<< HEAD
 legalNoticeTestPilot = SendCrew ამჟამად Test Pilot-ის საცდელი პროექტია და ექვემდებარება Test Pilot-ის <a>მომსახურების პირობებსა</a> და <a>პირადი მონაცემების დაცვის დებულებას</a>. ვრცლად, ამ საცდელი პროექტისა და მონაცემების აღრიცხვის შესახებ, შეგიძლიათ იხილოთ <a>აქ</a>.
 legalNoticeMozilla = SendCrew ვებსაიტი, ასევე ექვემდებარება Mozilla-ს <a>ვებსაიტების პირადი მონაცემების შესახებ დებულებას</a> და <a>ვებსაიტების გამოყენების პირობებს</a>.
 deletePopupText = გსურთ ამ ფაილის წაშლა?
+=======
+legalNoticeTestPilot = Firefox Send ამჟამად Test Pilot-ის საცდელი პროექტია და ექვემდებარება Test Pilot-ის <a>მომსახურების პირობებსა</a> და <a>პირადი მონაცემების დაცვის დებულებას</a>. ვრცლად, ამ საცდელი პროექტისა და მონაცემების აღრიცხვის შესახებ, შეგიძლიათ იხილოთ <a>აქ</a>.
+legalNoticeMozilla = Firefox Send ვებსაიტი, ასევე ექვემდებარება Mozilla-ს <a>ვებსაიტების პირადი მონაცემების შესახებ დებულებას</a> და <a>ვებსაიტების გამოყენების პირობებს</a>.
+deletePopupText = წაიშალოს ეს ფაილი?
+>>>>>>> upstream/master
 deletePopupYes = დიახ
 deletePopupCancel = გაუქმება
 deleteButtonHover = წაშლა
