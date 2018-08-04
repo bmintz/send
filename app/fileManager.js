@@ -63,12 +63,8 @@ export default function(state, emitter) {
   });
 
   emitter.on('delete', async ({ file }) => {
-    try {
-      state.storage.remove(file.id);
-      await file.del();
-    } catch (e) {
-      state.raven.captureException(e);
-    }
+    state.storage.remove(file.id);
+    await file.del();
   });
 
   emitter.on('cancel', () => {
@@ -105,7 +101,6 @@ export default function(state, emitter) {
       } else {
         // eslint-disable-next-line no-console
         console.error(err);
-        state.raven.captureException(err);
         emitter.emit('pushState', '/error');
       }
     } finally {
@@ -173,9 +168,6 @@ export default function(state, emitter) {
         console.error(err);
         state.transfer = null;
         const location = err.message === '404' ? '/404' : '/error';
-        if (location === '/error') {
-          state.raven.captureException(err);
-        }
         emitter.emit('pushState', location);
       }
     } finally {
