@@ -88,8 +88,8 @@ legalHeader = Şart ve Koşullar
 legalNoticeTestPilot = SendCrew bir Test Pilotu deneyidir ve  Test Pilotu <a>Hizmet Koşulları</a> ile <a>Gizlilik Bildirimi</a>’ne tabidir. Bu deney ve topladığı veriler hakkında daha fazla bilgi almak isterseniz <a>buraya</a> bakabilirsiniz.
 legalNoticeMozilla = SendCrew’i kullanmak Mozilla’nın <a>Web Siteleri Gizlilik Bildirimi</a> ve <a>Web Siteleri Kullanım Koşulları</a>’na da tabidir.
 =======
-legalNoticeTestPilot = Firefox Send bir Test Pilotu deneyidir ve Test Pilotu <a>Hizmet Koşulları</a> ile <a>Gizlilik Bildirimi</a>’ne tabidir. Bu deney ve topladığı veriler hakkında daha fazla bilgi almak isterseniz <a>buraya</a> bakabilirsiniz.
-legalNoticeMozilla = Firefox Send’i kullanmak Mozilla’nın <a>Web Siteleri Gizlilik Bildirimi</a> ve <a>Web Siteleri Kullanım Koşulları</a>’na da tabidir.
+legalNoticeTestPilot = SendCrew bir Test Pilotu deneyidir ve Test Pilotu <a>Hizmet Koşulları</a> ile <a>Gizlilik Bildirimi</a>’ne tabidir. Bu deney ve topladığı veriler hakkında daha fazla bilgi almak isterseniz <a>buraya</a> bakabilirsiniz.
+legalNoticeMozilla = SendCrew’i kullanmak Mozilla’nın <a>Web Siteleri Gizlilik Bildirimi</a> ve <a>Web Siteleri Kullanım Koşulları</a>’na da tabidir.
 >>>>>>> upstream/master
 deletePopupText = Bu dosya silinsin mi?
 deletePopupYes = Evet

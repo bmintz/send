@@ -94,8 +94,8 @@ legalHeader = Podmínky a ochrana soukromí
 legalNoticeTestPilot = SendCrew je ve fázi experimentu projektu Test Pilot a platí tak pro něj stejné <a>Podmínky používání</a> a <a>Zásady ochrany soukromí</a>. Více o tomto experimentu a sbíraných datech se dozvíte <a>zde</a>.
 legalNoticeMozilla = Používání webové služby SendCrew se řídí <a>Zásadami ochrany soukromí</a> a <a>Podmínkami používání</a> webových stránek Mozilly.
 =======
-legalNoticeTestPilot = Firefox Send je ve fázi experimentu projektu Test Pilot a platí tak pro něj stejné <a>Podmínky používání</a> a <a>Zásady ochrany osobních údajů</a>. Více o tomto experimentu a sbíraných datech se dozvíte <a>zde</a>.
-legalNoticeMozilla = Používání webové služby Firefox Send se řídí <a>Zásadami ochrany osobních údajů</a> a <a>Podmínkami používání</a> webových stránek Mozilly.
+legalNoticeTestPilot = SendCrew je ve fázi experimentu projektu Test Pilot a platí tak pro něj stejné <a>Podmínky používání</a> a <a>Zásady ochrany osobních údajů</a>. Více o tomto experimentu a sbíraných datech se dozvíte <a>zde</a>.
+legalNoticeMozilla = Používání webové služby SendCrew se řídí <a>Zásadami ochrany osobních údajů</a> a <a>Podmínkami používání</a> webových stránek Mozilly.
 >>>>>>> upstream/master
 deletePopupText = Smazat tento soubor?
 deletePopupYes = Ano

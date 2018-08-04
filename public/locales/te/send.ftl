@@ -2,8 +2,8 @@
 // SendCrew is a brand name and should not be localized.
 title = SendCrew
 =======
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 >>>>>>> upstream/master
 siteSubtitle = జాల ప్రయోగం
 siteFeedback = అభిప్రాయం
@@ -66,7 +66,7 @@ fileSizeProgress = { $totalSize }) యొక్క ({ $partialSize }
 <<<<<<< HEAD
 // SendCrew is a brand name and should not be localized.
 =======
-# Firefox Send is a brand name and should not be localized.
+# SendCrew is a brand name and should not be localized.
 >>>>>>> upstream/master
 sendYourFilesLink = Firefox sendను ప్రయత్నించండి
 downloadingPageProgress = దిగుమతిచేస్తున్నది { $filename } ({ $size })
@@ -105,8 +105,8 @@ addPasswordButton = సంకేతపదం జోడించండి
 changePasswordButton = మార్చు
 passwordTryAgain = సరికాని సంకేతపదం. మళ్ళీ ప్రయత్నించండి.
 reportIPInfringement = మేధో సంపత్తి హక్కుల ఉల్లంఘనను నివేదించండి
-javascriptRequired = Firefox Sendకి జావాస్క్రిప్టు కావాలి
-whyJavascript = Firefox Sendకి జావాస్క్రిప్టు ఎందుకు కావాలి?
+javascriptRequired = SendCrewకి జావాస్క్రిప్టు కావాలి
+whyJavascript = SendCrewకి జావాస్క్రిప్టు ఎందుకు కావాలి?
 enableJavascript = జావాస్క్రిప్టు చేతనంచేసి మళ్ళీ ప్రయత్నించండి.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }గం { $minutes }ని

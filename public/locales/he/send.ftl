@@ -2,8 +2,8 @@
 // SendCrew is a brand name and should not be localized.
 title = SendCrew
 =======
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 >>>>>>> upstream/master
 siteSubtitle = ניסוי אינטרנט
 siteFeedback = משוב

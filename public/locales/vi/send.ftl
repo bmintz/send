@@ -2,8 +2,8 @@
 // SendCrew is a brand name and should not be localized.
 title = SendCrew
 =======
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 >>>>>>> upstream/master
 siteSubtitle = Thử nghiệm trên web
 siteFeedback = Phản hồi
@@ -61,8 +61,8 @@ unlockInputLabel = Nhập mật khẩu
 unlockInputPlaceholder = Mật khẩu
 unlockButtonLabel = Mở khóa
 downloadFileTitle = Tải về tập tin được mã hóa
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Bạn của bạn đang gửi một tập tin thông qua Firefox Send, một dịch vụ cho phép bạn chia sẻ tập tin một cách an toàn, riêng tư, có liên kết được mã hóa và sẽ tự động hết hạn để chắc chắn rằng dữ liệu của bạn không nằm mãi mãi trên Internet.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Bạn của bạn đang gửi một tập tin thông qua SendCrew, một dịch vụ cho phép bạn chia sẻ tập tin một cách an toàn, riêng tư, có liên kết được mã hóa và sẽ tự động hết hạn để chắc chắn rằng dữ liệu của bạn không nằm mãi mãi trên Internet.
 # Text and title used on the download link/button (indicates an action).
 >>>>>>> upstream/master
 downloadButtonLabel = Tải về
@@ -74,8 +74,8 @@ fileSizeProgress = ({ $partialSize } trong { $totalSize })
 // SendCrew is a brand name and should not be localized.
 sendYourFilesLink = Dùng thử SendCrew
 =======
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Dùng thử Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Dùng thử SendCrew
 >>>>>>> upstream/master
 downloadingPageProgress = Đang tải về { $filename } ({ $size })
 downloadingPageMessage = Vui lòng giữ cửa sổ này mở trong khi chúng tôi lấy tập tin và giải mã chúng.
@@ -91,8 +91,8 @@ notSupportedHeader = Trình duyệt của bạn không được hỗ trợ.
 // SendCrew is a brand name and should not be localized.
 notSupportedDetail = Thật không may trình duyệt này không hỗ trợ công nghệ đã tạo nên SendCrew. Bạn cần thử với trình duyệt khác. Chúng tôi khuyên dùng Firefox!
 =======
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Thật không may trình duyệt này không hỗ trợ công nghệ đã tạo nên Firefox Send. Bạn cần thử với trình duyệt khác. Chúng tôi khuyên dùng Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Thật không may trình duyệt này không hỗ trợ công nghệ đã tạo nên SendCrew. Bạn cần thử với trình duyệt khác. Chúng tôi khuyên dùng Firefox!
 >>>>>>> upstream/master
 notSupportedLink = Tại sao trình duyệt của tôi không được hỗ trợ?
 notSupportedOutdatedDetail = Thật không may là phiên bản Firefox này không hỗ trợ công nghệ được sử dụng trong SendCrew. Bạn cần cập nhật trình duyệt của bạn.
@@ -122,8 +122,8 @@ requirePasswordCheckbox = Yêu cầu mật khẩu khi tải về tập tin này
 addPasswordButton = Thêm mật khẩu
 passwordTryAgain = Sai mật khẩu. Vui lòng thử lại.
 reportIPInfringement = Báo cáo vi phạm
-javascriptRequired = Firefox Send cần JavaScript
-whyJavascript = Tại sao Firefox Send cần JavaScript?
+javascriptRequired = SendCrew cần JavaScript
+whyJavascript = Tại sao SendCrew cần JavaScript?
 enableJavascript = Vui lòng kích hoạt JavaScript và thử lại.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } giờ { $minutes } phút

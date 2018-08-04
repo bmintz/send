@@ -2,8 +2,8 @@
 // SendCrew is a brand name and should not be localized.
 title = SendCrew
 =======
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 >>>>>>> upstream/master
 siteSubtitle = eksperimen web
 siteFeedback = Saran
@@ -64,8 +64,8 @@ downloadFileTitle = Unduh Berkas Terenkripsi
 downloadMessage = Teman Anda mengirimkan berkas dengan SendCrew, layanan yang memungkinkan Anda berbagi berkas dengan tautan yang aman, pribadi, dan terenkripsi yang secara otomatis berakhir untuk memastikan berkas Anda tidak daring selamanya.
 // Text and title used on the download link/button (indicates an action).
 =======
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Teman Anda mengirimkan berkas dengan Firefox Send, layanan yang memungkinkan Anda berbagi berkas dengan tautan yang aman, pribadi, dan terenkripsi yang secara otomatis berakhir untuk memastikan berkas Anda tidak daring selamanya.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Teman Anda mengirimkan berkas dengan SendCrew, layanan yang memungkinkan Anda berbagi berkas dengan tautan yang aman, pribadi, dan terenkripsi yang secara otomatis berakhir untuk memastikan berkas Anda tidak daring selamanya.
 # Text and title used on the download link/button (indicates an action).
 >>>>>>> upstream/master
 downloadButtonLabel = Unduh
@@ -77,8 +77,8 @@ fileSizeProgress = ({ $partialSize } dari { $totalSize })
 // SendCrew is a brand name and should not be localized.
 sendYourFilesLink = Coba SendCrew
 =======
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Coba Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Coba SendCrew
 >>>>>>> upstream/master
 downloadingPageProgress = Mengunduh { $filename } ({ $size })
 downloadingPageMessage = Sila biarkan tab ini terbuka sementara kami memproses berkas Anda dan mendekripsinya.
@@ -94,8 +94,8 @@ notSupportedHeader = Peramban Anda tidak mendukung.
 // SendCrew is a brand name and should not be localized.
 notSupportedDetail = Sayangnya peramban ini tidak mendukung teknologi web yang menggerakkan SendCrew. Anda perlu mencoba peramban lain. Kami merekomendasikan Firefox!
 =======
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Sayangnya peramban ini tidak mendukung teknologi web yang menggerakkan Firefox Send. Anda perlu mencoba peramban lain. Kami merekomendasikan Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Sayangnya peramban ini tidak mendukung teknologi web yang menggerakkan SendCrew. Anda perlu mencoba peramban lain. Kami merekomendasikan Firefox!
 >>>>>>> upstream/master
 notSupportedLink = Mengapa peramban saya tidak didukung?
 notSupportedOutdatedDetail = Sayangnya Firefox versi ini tidak mendukung teknologi web yang menggerakkan SendCrew. Anda perlu memperbarui peramban Anda.
@@ -126,8 +126,8 @@ addPasswordButton = Tambahkan Sandi
 changePasswordButton = Ubah
 passwordTryAgain = Sandi salah. Silakan coba lagi.
 reportIPInfringement = Laporkan Pelanggaran IP
-javascriptRequired = Firefox Send membutuhkan JavaScript.
-whyJavascript = Mengapa Firefox Send membutuhkan JavaScript?
+javascriptRequired = SendCrew membutuhkan JavaScript.
+whyJavascript = Mengapa SendCrew membutuhkan JavaScript?
 enableJavascript = Silakan aktifkan JavaScript dan coba lagi.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }j { $minutes }m

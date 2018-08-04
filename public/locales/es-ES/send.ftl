@@ -92,8 +92,8 @@ legalHeader = Términos y privacidad
 legalNoticeTestPilot = SendCrew sigue siendo un experimento de Test Pilot y está sujero a las <a>Condiciones del servicio</a> y al <a>Aviso de privacidad</a> de Test Pilot.
 legalNoticeMozilla = El uso de la página de SendCrew también está sujeto al <a>Aviso de privacidad sobre sitios web</a> y a los <a>Términos de uso sobre sitios web</a>.
 =======
-legalNoticeTestPilot = Firefox Send sigue siendo un experimento de Test Pilot y está sujero a las <a>Condiciones del servicio</a> y al <a>Aviso de privacidad</a> de Test Pilot. <a>Aquí</a> podrás descubrir más sobre este experimento y su recopilación de datos.
-legalNoticeMozilla = El uso de la página de Firefox Send también está sujeto al <a>Aviso de privacidad sobre sitios web</a> y a los <a>Términos de uso sobre sitios web</a>.
+legalNoticeTestPilot = SendCrew sigue siendo un experimento de Test Pilot y está sujero a las <a>Condiciones del servicio</a> y al <a>Aviso de privacidad</a> de Test Pilot. <a>Aquí</a> podrás descubrir más sobre este experimento y su recopilación de datos.
+legalNoticeMozilla = El uso de la página de SendCrew también está sujeto al <a>Aviso de privacidad sobre sitios web</a> y a los <a>Términos de uso sobre sitios web</a>.
 >>>>>>> upstream/master
 deletePopupText = ¿Eliminar el archivo?
 deletePopupYes = Sí

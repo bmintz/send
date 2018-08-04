@@ -2,8 +2,8 @@
 // SendCrew is a brand name and should not be localized.
 title = SendCrew
 =======
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 >>>>>>> upstream/master
 siteSubtitle = 웹 실험
 siteFeedback = 사용자 의견
@@ -58,8 +58,8 @@ downloadFileTitle = 암호화된 파일 다운로드
 downloadMessage = 당신의 친구가 SendCrew를 통해 파일을 보내고 있습니다. 이 서비스는 안전하고, 개인적이며, 암호화된 링크를 통해 파일을 공유하는 서비스입니다. 사용자의 파일이 더 이상 온라인 상에 남지 않도록 링크는 자동적으로 만료됩니다.
 // Text and title used on the download link/button (indicates an action).
 =======
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = 당신의 친구가 Firefox Send를 통해 파일을 보내고 있습니다. 이 서비스는 안전하고, 개인적이며, 암호화된 링크를 통해 파일을 공유하는 서비스입니다. 사용자의 파일이 더 이상 온라인 상에 남지 않도록 링크는 자동적으로 만료됩니다.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = 당신의 친구가 SendCrew를 통해 파일을 보내고 있습니다. 이 서비스는 안전하고, 개인적이며, 암호화된 링크를 통해 파일을 공유하는 서비스입니다. 사용자의 파일이 더 이상 온라인 상에 남지 않도록 링크는 자동적으로 만료됩니다.
 # Text and title used on the download link/button (indicates an action).
 >>>>>>> upstream/master
 downloadButtonLabel = 다운로드
@@ -71,8 +71,8 @@ fileSizeProgress = ({ $partialSize } / { $totalSize })
 // SendCrew is a brand name and should not be localized.
 sendYourFilesLink = SendCrew 써보기
 =======
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Firefox Send 써보기
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = SendCrew 써보기
 >>>>>>> upstream/master
 downloadingPageProgress = { $filename } ({ $size }) 다운로드 중
 downloadingPageMessage = 파일을 가져오고 복호화하는 동안 탭을 닫지 말아주세요.
@@ -88,8 +88,8 @@ notSupportedHeader = 이 브라우저는 지원되지 않습니다.
 // SendCrew is a brand name and should not be localized.
 notSupportedDetail = 안타깝게도 이 브라우저는 SendCrew에 사용되는 웹 기술을 지원하지 않습니다. 다른 브라우저로 다시 시도해주세요. Firefox를 추천합니다!
 =======
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = 안타깝게도 이 브라우저는 Firefox Send에 사용되는 웹 기술을 지원하지 않습니다. 다른 브라우저로 다시 시도해주세요. Firefox를 추천합니다!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = 안타깝게도 이 브라우저는 SendCrew에 사용되는 웹 기술을 지원하지 않습니다. 다른 브라우저로 다시 시도해주세요. Firefox를 추천합니다!
 >>>>>>> upstream/master
 notSupportedLink = 왜 이 브라우저는 지원이 되지 않나요?
 notSupportedOutdatedDetail = 안타깝게도 현재 브라우저 버전에서는 SendCrew에 사용되는 웹 기술을 지원하지 않습니다. 브라우저 업데이트가 필요합니다.
@@ -120,8 +120,8 @@ addPasswordButton = 비밀번호 추가
 changePasswordButton = 바꾸기
 passwordTryAgain = 비밀번호가 맞지 않습니다. 다시 시도해 주세요.
 reportIPInfringement = 지적 재산권 침해 신고
-javascriptRequired = Firefox Send는 자바스크립트를 필요로 합니다
-whyJavascript = 왜 Firefox Send에 자바스크립트가 필요하죠?
+javascriptRequired = SendCrew는 자바스크립트를 필요로 합니다
+whyJavascript = 왜 SendCrew에 자바스크립트가 필요하죠?
 enableJavascript = 자바스크립트를 활성화하고 다시 시도해 주세요.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }시간 { $minutes }분

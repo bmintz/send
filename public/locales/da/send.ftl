@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 siteSubtitle = webeksperiment
 siteFeedback = Feedback
 uploadPageHeader = Privat, krypteret fildeling
@@ -55,16 +55,16 @@ unlockInputLabel = Indtast adgangskode
 unlockInputPlaceholder = Adgangskode
 unlockButtonLabel = Lås op
 downloadFileTitle = Hent krypteret fil
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Din ven sender dig en fil med Firefox Send, en tjeneste, der lader dig dele filer via et sikkert, privat og krypteret link, som automatisk udløber for at sikre, at dine ting ikke forbliver på nettet for altid.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Din ven sender dig en fil med SendCrew, en tjeneste, der lader dig dele filer via et sikkert, privat og krypteret link, som automatisk udløber for at sikre, at dine ting ikke forbliver på nettet for altid.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Hent
 downloadNotification = Hentning af din fil er fuldført.
 downloadFinish = Hentning fuldført
 # This message is displayed when uploading or downloading a file, e.g. "(1,3 MB of 10 MB)".
 fileSizeProgress = ({ $partialSize } af { $totalSize })
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Prøv Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Prøv SendCrew
 downloadingPageProgress = Henter { $filename } { $size }
 downloadingPageMessage = Hold dette faneblad åbent, mens vi henter og dekrypterer din fil.
 errorAltText = Upload mislykkedes
@@ -75,10 +75,10 @@ fileTooBig = Den fil er for stor at uploade. Den skal være mindre end { $size }
 linkExpiredAlt = Link er udløbet
 expiredPageHeader = Dette link er udløbet eller har aldrig eksisteret!
 notSupportedHeader = Din browser understøttes ikke.
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Desværre understøtter denne browser ikke den webteknologi, som driver Firefox Send. Du skal bruge en anden browser. Vi anbefaler Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Desværre understøtter denne browser ikke den webteknologi, som driver SendCrew. Du skal bruge en anden browser. Vi anbefaler Firefox!
 notSupportedLink = Hvorfor understøttes min browser ikke?
-notSupportedOutdatedDetail = Desværre understøtter denne version af Firefox ikke den webteknologi, som driver Firefox Send. Du skal opdatere din browser.
+notSupportedOutdatedDetail = Desværre understøtter denne version af Firefox ikke den webteknologi, som driver SendCrew. Du skal opdatere din browser.
 updateFirefox = Opdater Firefox
 downloadFirefoxButtonSub = Gratis download
 uploadedFile = Fil
@@ -88,8 +88,8 @@ expiryFileList = Udløber om
 deleteFileList = Slet
 nevermindButton = Glem det
 legalHeader = Betingelser & privatliv
-legalNoticeTestPilot = Firefox Send er i øjeblikket et Testpilot-eksperiment, som er underlagt Testpilots <a>betingelser for brug</a> og <a>privatlivspolitik</a>. Du kan læse mere om eksperimentet og dets indsamling af data <a>her</a>.
-legalNoticeMozilla = Brugen af webstedet Firefox Send er også underlagt Mozillas <a>privatlivspolitik for websteder</a> og <a>betingelser for brug af websteder</a>.
+legalNoticeTestPilot = SendCrew er i øjeblikket et Testpilot-eksperiment, som er underlagt Testpilots <a>betingelser for brug</a> og <a>privatlivspolitik</a>. Du kan læse mere om eksperimentet og dets indsamling af data <a>her</a>.
+legalNoticeMozilla = Brugen af webstedet SendCrew er også underlagt Mozillas <a>privatlivspolitik for websteder</a> og <a>betingelser for brug af websteder</a>.
 deletePopupText = Slet denne fil?
 deletePopupYes = Ja
 deletePopupCancel = Annuller
@@ -106,8 +106,8 @@ addPasswordButton = Tilføj adgangskode
 changePasswordButton = Skift
 passwordTryAgain = Forkert adgangskode. Prøv igen.
 reportIPInfringement = Rapporter krænkelse af intellektuel ejendomsret
-javascriptRequired = Firefox Send kræver JavaScript
-whyJavascript = Hvorfor kræver Firefox Send JavaScript?
+javascriptRequired = SendCrew kræver JavaScript
+whyJavascript = Hvorfor kræver SendCrew JavaScript?
 enableJavascript = Aktiver JavaScript og prøv igen.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } t { $minutes } m

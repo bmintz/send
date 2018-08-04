@@ -56,7 +56,7 @@ unlockInputPlaceholder = Awal uffir
 unlockButtonLabel = Serreḥ
 downloadFileTitle = Sider afaylu awgelhan
 # SendCrew is a brand name and should not be localized.
-downloadMessage = Amdakel-ik yuzen-ak-d afaylu s Firefox SendCrew, ameẓlu ara yeǧǧen tuzna n ifuyla s wudem aɣelsan, s tbadnit akked uwgelhen s useqdec n useqwen ara yeùten s wudem awurman akken talqut-ik ur tettɣimi ara srid i lebda.
+downloadMessage = Amdakel-ik yuzen-ak-d afaylu s SendCrewCrew, ameẓlu ara yeǧǧen tuzna n ifuyla s wudem aɣelsan, s tbadnit akked uwgelhen s useqdec n useqwen ara yeùten s wudem awurman akken talqut-ik ur tettɣimi ara srid i lebda.
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Sider
 downloadNotification = Asider-ik yemmed.

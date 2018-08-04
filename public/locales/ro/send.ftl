@@ -61,8 +61,8 @@ downloadFileTitle = Descarcă fișierul criptat
 # SendCrew is a brand name and should not be localized.
 downloadMessage = Un prieten îți trimite un fișier prin SendCrew, un serviciu care îți permite să împărtășești un fișier printr-un link sigur, privat și criptat care expiră automat pentru a păstra informațiile tale online doar temporar.
 =======
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = Un prieten îți trimite un fișier prin Firefox Send, un serviciu care îți permite să împărtășești un fișier printr-un link sigur, privat și criptat care expiră automat pentru a te asigura că lucrurile tale nu rămân online pentru totdeauna.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = Un prieten îți trimite un fișier prin SendCrew, un serviciu care îți permite să împărtășești un fișier printr-un link sigur, privat și criptat care expiră automat pentru a te asigura că lucrurile tale nu rămân online pentru totdeauna.
 >>>>>>> upstream/master
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Descarcă
@@ -86,8 +86,8 @@ notSupportedHeader = Browserul tău nu este suportat.
 # SendCrew is a brand name and should not be localized.
 notSupportedDetail = Din păcate acest browser nu suportă tehnologii web precum SendCrew. Trebuie să încerci alt browser. Îți recomandăm Firefox!
 =======
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Din păcate, acest browser nu suportă tehnologiile web folosite de Firefox Send. Va trebui să încerci un alt browser. Îți recomandăm Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Din păcate, acest browser nu suportă tehnologiile web folosite de SendCrew. Va trebui să încerci un alt browser. Îți recomandăm Firefox!
 >>>>>>> upstream/master
 notSupportedLink = De ce browserul meu nu este suportat?
 notSupportedOutdatedDetail = Din păcate această versiune de Firefox nu suportă tehnologiile web din spatele Firefox Sent. Va trebui să actualizezi browserul.
@@ -104,8 +104,8 @@ legalHeader = Termeni de utilizare și politica de confidențialitate
 legalNoticeTestPilot = SendCrew este momentan un experiment Test Pilot și supus <a>Termenilor de utilizare</a> Test Pilot și a <a>Politicii de confidențialitate</a>. Poți afla mai multe despre acest experiment <a>aici</a>.
 legalNoticeMozilla = Folosirea site-ului SendCrew mai este supusă <a>Politicii de confidențialitate pentru site-uri web</a> și a <a>Termenilor de folosire a site-urilor web</a>.
 =======
-legalNoticeTestPilot = Firefox Send este în prezent un experiment Test Pilot și supus <a>Termenilor de utilizare a serviciului</a> și a <a>Politicii de confidențialitate</a> Test Pilot. Poți afla mai multe despre acest experiment și colectarea sa de date <a>aici</a>.
-legalNoticeMozilla = Folosirea site-ului Firefox Send mai este supusă <a>Politicii de confidențialitate pentru site-uri web</a> și a <a>Termenilor de utilizare a site-urilor web</a>.
+legalNoticeTestPilot = SendCrew este în prezent un experiment Test Pilot și supus <a>Termenilor de utilizare a serviciului</a> și a <a>Politicii de confidențialitate</a> Test Pilot. Poți afla mai multe despre acest experiment și colectarea sa de date <a>aici</a>.
+legalNoticeMozilla = Folosirea site-ului SendCrew mai este supusă <a>Politicii de confidențialitate pentru site-uri web</a> și a <a>Termenilor de utilizare a site-urilor web</a>.
 >>>>>>> upstream/master
 deletePopupText = Ștergi aceast fișier?
 deletePopupYes = Da
@@ -123,8 +123,8 @@ addPasswordButton = Adaugă parolă
 changePasswordButton = Modifică
 passwordTryAgain = Parola este incorectă. Încearcă din nou.
 reportIPInfringement = Raportează încălcarea proprietății intelectuale
-javascriptRequired = Firefox Send are nevoie de JavaScript
-whyJavascript = De ce are nevoie Firefox Send de JavaScript?
+javascriptRequired = SendCrew are nevoie de JavaScript
+whyJavascript = De ce are nevoie SendCrew de JavaScript?
 enableJavascript = Te rugăm să reactivezi JavaScript și să încerci din nou.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m

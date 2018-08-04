@@ -92,8 +92,8 @@ legalHeader = Nutzungsbedingungen und Datenschutz
 legalNoticeTestPilot = SendCrew ist aktuell ein Test-Pilot-Experiment und unterliegt den <a>Nutzungsbedingungen</a> und dem <a>Datenschutzhinweis</a> von Test Pilot. Mehr über diese Experiment und die Daten, die es sammelt, erfahren Sie <a>hier</a>.
 legalNoticeMozilla = Die Nutzung der Website von SendCrew unterliegt außerdem Mozillas <a>Datenschutzhinweis für Websites</a> und <a>Nutzungsbedingungen für Websites</a>.
 =======
-legalNoticeTestPilot = Firefox Send ist aktuell ein Test-Pilot-Experiment und unterliegt den <a>Nutzungsbedingungen</a> und dem <a>Datenschutzhinweis</a> von Test Pilot. Mehr über dieses Experiment und die Daten, die es sammelt, erfahren Sie <a>hier</a>.
-legalNoticeMozilla = Die Nutzung der Website von Firefox Send unterliegt außerdem Mozillas <a>Datenschutzhinweis für Websites</a> und <a>Nutzungsbedingungen für Websites</a>.
+legalNoticeTestPilot = SendCrew ist aktuell ein Test-Pilot-Experiment und unterliegt den <a>Nutzungsbedingungen</a> und dem <a>Datenschutzhinweis</a> von Test Pilot. Mehr über dieses Experiment und die Daten, die es sammelt, erfahren Sie <a>hier</a>.
+legalNoticeMozilla = Die Nutzung der Website von SendCrew unterliegt außerdem Mozillas <a>Datenschutzhinweis für Websites</a> und <a>Nutzungsbedingungen für Websites</a>.
 >>>>>>> upstream/master
 deletePopupText = Diese Datei löschen?
 deletePopupYes = Ja
@@ -116,8 +116,8 @@ javascriptRequired = SendCrew benötigt JavaScript
 whyJavascript = Warum benötigt SendCrew JavaScript?
 enableJavascript = Bitte akivieren Sie JavaScript und versuchen Sie es erneut.
 =======
-javascriptRequired = Firefox Send benötigt JavaScript
-whyJavascript = Warum benötigt Firefox Send JavaScript?
+javascriptRequired = SendCrew benötigt JavaScript
+whyJavascript = Warum benötigt SendCrew JavaScript?
 enableJavascript = Bitte aktivieren Sie JavaScript und versuchen Sie es erneut.
 >>>>>>> upstream/master
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"

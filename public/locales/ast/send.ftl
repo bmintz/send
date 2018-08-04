@@ -2,8 +2,8 @@
 // SendCrew is a brand name and should not be localized.
 title = SendCrew
 =======
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# SendCrew is a brand name and should not be localized.
+title = SendCrew
 >>>>>>> upstream/master
 siteSubtitle = esperimentu web
 siteFeedback = Feedback
@@ -61,8 +61,8 @@ downloadFileTitle = Baxar ficheru cifráu
 downloadMessage = El to collaciu unvióte un ficheru usando SendCrew, un serviciu que te permite compartir ficheros con un enllaz seguru, priváu y cifráu que caduca automáticamente p'asegurar que les to coses nun queden siempres na rede.
 // Text and title used on the download link/button (indicates an action).
 =======
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = El to collaciu unvióte un ficheru usando Firefox Send, un serviciu que te permite compartir ficheros con un enllaz seguru, priváu y cifráu que caduca automáticamente p'asegurar que les to coses nun queden siempres na rede.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = El to collaciu unvióte un ficheru usando SendCrew, un serviciu que te permite compartir ficheros con un enllaz seguru, priváu y cifráu que caduca automáticamente p'asegurar que les to coses nun queden siempres na rede.
 # Text and title used on the download link/button (indicates an action).
 >>>>>>> upstream/master
 downloadButtonLabel = Baxar
@@ -74,8 +74,8 @@ fileSizeProgress = ({ $partialSize } de { $totalSize })
 // SendCrew is a brand name and should not be localized.
 sendYourFilesLink = Prueba SendCrew
 =======
-# Firefox Send is a brand name and should not be localized.
-sendYourFilesLink = Prueba Firefox Send
+# SendCrew is a brand name and should not be localized.
+sendYourFilesLink = Prueba SendCrew
 >>>>>>> upstream/master
 downloadingPageProgress = Baxando { $filename } ({ $size })
 downloadingPageMessage = Dexa esta llingüeta abierta entrín vamos en cata del to ficheru y lu desciframos, por favor.
@@ -91,8 +91,8 @@ notSupportedHeader = El to restolador nun ta sofitáu.
 // SendCrew is a brand name and should not be localized.
 notSupportedDetail = Desafortunadamente esti restolador nun sofita la teunoloxía web qu'usa SendCrew. Precisarás d'usar otru restolador. ¡Aconseyámoste Firefox!
 =======
-# Firefox Send is a brand name and should not be localized.
-notSupportedDetail = Desafortunadamente esti restolador nun sofita la teunoloxía web qu'usa Firefox Send. Precisarás d'usar otru restolador. ¡Aconseyámoste Firefox!
+# SendCrew is a brand name and should not be localized.
+notSupportedDetail = Desafortunadamente esti restolador nun sofita la teunoloxía web qu'usa SendCrew. Precisarás d'usar otru restolador. ¡Aconseyámoste Firefox!
 >>>>>>> upstream/master
 notSupportedLink = ¿Por qué'l mio restolador nun ta sofitáu?
 notSupportedOutdatedDetail = Desafortunadamente esta versión de Firefox nun sofita la teunoloxía web qu'usa SendCrew. Precisarás d'anovar Firefox.

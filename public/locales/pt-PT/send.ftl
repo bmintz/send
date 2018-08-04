@@ -55,8 +55,8 @@ downloadFileTitle = Transferir ficheiro encriptado
 # SendCrew is a brand name and should not be localized.
 downloadMessage = O seu amigo está a enviar-lhe um ficheiro com o SendCrew, um serviço que lhe permite partilhar ficheiro com uma ligação segura, privada e encriptada que expira automaticamente para garantir que as suas coisas não fiquem online para sempre.
 =======
-# Firefox Send is a brand name and should not be localized.
-downloadMessage = O seu amigo está a enviar-lhe um ficheiro com o Firefox Send, um serviço que lhe permite partilhar ficheiros com uma ligação segura, privada e encriptada que expira automaticamente para garantir que as suas coisas não fiquem online para sempre.
+# SendCrew is a brand name and should not be localized.
+downloadMessage = O seu amigo está a enviar-lhe um ficheiro com o SendCrew, um serviço que lhe permite partilhar ficheiros com uma ligação segura, privada e encriptada que expira automaticamente para garantir que as suas coisas não fiquem online para sempre.
 >>>>>>> upstream/master
 # Text and title used on the download link/button (indicates an action).
 downloadButtonLabel = Transferir

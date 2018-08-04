@@ -110,8 +110,8 @@ reportIPInfringement = گزارش تخلف IP
 javascriptRequired = SendCrew نیازمند جاوااسکریپت است
 whyJavascript = چراSendCrew جاوااسکریپت لازم دارد؟
 =======
-javascriptRequired = Firefox Send نیازمند جاوااسکریپت است
-whyJavascript = چرا Firefox Send جاوااسکریپت لازم داد؟
+javascriptRequired = SendCrew نیازمند جاوااسکریپت است
+whyJavascript = چرا SendCrew جاوااسکریپت لازم داد؟
 >>>>>>> upstream/master
 enableJavascript = لطفا جاوااسکریپت را فعال کنید و مجددا تلاش کنید.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
